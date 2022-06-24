@@ -18,7 +18,7 @@ import { Component, OnInit } from '@angular/core';
   `],
   template: `
     <footer >
-      <div class="container">
+      <div class="container row">
         <div class="col-md-4 mb-0 text-center">
             <p><img src="../favicon.ico" atl="Website Logo"></p>
             <p>&copy; 2022 beautylashesbygabby LLC</p>
@@ -29,8 +29,7 @@ import { Component, OnInit } from '@angular/core';
             <label>Business Hours:</label>
         </div>
         
-        <div class="col-md-4 text-center">
-
+        <div class="col-md-4 text-center my-auto">
             <div class="template-demo text-center mb-2"> 
                 <button class="btn btn-social-icon btn-github"><a href="https://github.com/carvillanueva" target="_blank"><i class="fab fa-github"></i></a></button> 
                 <button class="btn btn-social-icon btn-linkedin"><a href="https://www.linkedin.com/in/carlosivillanueva/" target="_blank"><i class="fa fa-linkedin"></i></a></button> 
