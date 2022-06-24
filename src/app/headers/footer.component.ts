@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     footer {
       padding-top: 100px;
       padding-bottom: 100px;
-      background-color: #FFCFF2;
+      background-color: #fdeff9;;
       color:white;
     }
     a {
@@ -15,32 +15,77 @@ import { Component, OnInit } from '@angular/core';
     a:hover {
       color: grey;
     }
+    table {
+      font-size: 12px;
+      line-height: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0px;
+    }
+    ul li {
+      line-height: 35px;
+    }
   `],
   template: `
     <footer >
-      <div class="container row">
+      <div class="container row text-muted">
         <div class="col-md-4 mb-0 text-center">
             <p><img src="../favicon.ico" atl="Website Logo"></p>
             <p>&copy; 2022 beautylashesbygabby LLC</p>
             <p>Made by Carlos Villanueva</p>
+            <div class="template-demo text-center mb-2"> 
+              <button class="btn btn-social-icon btn-github"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button> 
+              <button class="btn btn-social-icon btn-linkedin"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button> 
+              <button class="btn btn-social-icon btn-instagram"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></button>
+            </div>
         </div>
         
         <div class="col-md-4 mb-0 text-center">
             <label>Business Hours:</label>
+            <table class="table table-condensed table-borderless text-center">
+              <tbody>
+                <tr>
+                  <td>Monday</td>
+                  <td>8am-5pm</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>8am-5pm</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>8am-5pm</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>8am-5pm</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>8am-5pm</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>8am-5pm</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>Off</td>
+                </tr>
+              </tbody>
+            </table>
         </div>
         
         <div class="col-md-4 text-center my-auto">
-            <div class="template-demo text-center mb-2"> 
-                <button class="btn btn-social-icon btn-github"><a href="https://github.com/carvillanueva" target="_blank"><i class="fab fa-github"></i></a></button> 
-                <button class="btn btn-social-icon btn-linkedin"><a href="https://www.linkedin.com/in/carlosivillanueva/" target="_blank"><i class="fa fa-linkedin"></i></a></button> 
-                <button class="btn btn-social-icon btn-instagram"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></button>
-                <button data-toggle="modal" data-target="#contact" class="btn btn-social-icon btn-other "><i class="fas fa-envelope"></i></button>
-                <button class="btn btn-social-icon btn-other"><a href="../assets/TEST.pdf" download="TEST.pdf"><i class="fas fa-file-pdf"></i></a></button>
-            </div>
-            <!-- <li class="nav-item"><a href="/" class="nav-link px-2">Services <i class="fa fa-house-user"></i></a></li>
-            <li class="nav-item"><a href="#portfolio" class="nav-link px-2">Gallery <i class="fa fa-briefcase"></i></a></li>
-            <li class="nav-item"><a [routerLink]="['/resume']" class="nav-link px-2">FAQs <i class="fa fa-newspaper"></i></a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link px-2">Policies <span class="fa fa-address-card"></span></a></li> -->
+          <label class="form-label" >Navigation</label>
+          <ul>
+            <li>Services</li>
+            <li>Gallery</li>
+            <li>FAQs</li>
+            <li>Policies</li>
+            <li></li>
+          </ul>
         </div>
       </div>
     </footer>
