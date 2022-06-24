@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .fadePage {
+        animation: fadeInAnimation ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    /* SOCIAL MEDIA ICONS */
+    .btn.btn-social-icon {
+        width: 25px;
+        height: 25px;
+        padding: 0px;
+        border-radius: 50%;
+    }
+
+    .template-demo>.btn {
+        margin-right: 0.5rem !important
+    }
+
+    .template-demo {
+        margin-top: 0.5rem !important
+    }
+
+    .btn-github {
+        background: #ea4c89;
+        color: #ffffff
+    }
+
+    .btn-linkedin {
+        background: #0177b5;
+        color: #ffffff
+    }
+
+    .btn-instagram {
+        background: #dc4a38;
+        color: #ffffff
+    }
+
+    .btn-other {
+        background: lightslategrey;
+        color: #fff;
+    }
+
+    .btn-github:hover,
+    .btn-github:focus {
+        background: #e51e6b;
+        color: #ffffff
+    }
+
+    .btn-linkedin:hover,
+    .btn-linkedin:focus {
+        background: #015682;
+        color: #ffffff
+    }
+
+    .btn-instagram:hover,
+    .btn-instagram:focus {
+        background: #bf3322;
+        color: #ffffff
+    }
+
+    .btn-other:hover,
+    .btn-other:focus {
+        background: lightgrey;
+        color: #ffffff
+    }
+
+    .img-round {
+        border-radius: 50%;
+    }
