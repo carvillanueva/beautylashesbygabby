@@ -2,8 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styles: [`
+  `],
+  template: `
+    <main-header></main-header>
+    <router-outlet></router-outlet>
+    <main-footer></main-footer>
+  
+  `
 })
 export class AppComponent {
   title = 'beautylashesbygabby';
