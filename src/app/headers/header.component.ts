@@ -24,16 +24,16 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fdeff9;">
       <div class="container">
-        <a class="py-2 navbar-brand" [routerLink]="['']"><img src="../favicon.ico" atl="Website Logo"></a>
+        <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../favicon.ico" atl="Website Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
           <div class="navbar-nav nav-masthead mx-auto text-center">
-            <a class="mx-5 nav-link" [routerLink]="['/']">Services</a>
-            <a class="mx-5 nav-link" [routerLink]="['/']">Gallery</a>
-            <a class="mx-5 nav-link" [routerLink]="['/']">FAQs</a>
-            <a class="mx-5 nav-link" [routerLink]="['/']">Policies</a>
+            <a class="mx-5 nav-link" [routerLink]="['services']">Services</a>
+            <a class="mx-5 nav-link" [routerLink]="['gallery']">Gallery</a>
+            <a class="mx-5 nav-link" [routerLink]="['questions']">FAQs</a>
+            <a class="mx-5 nav-link" [routerLink]="['policies']">Policies</a>
             <a class="mx-5 nav-link book-btn" [routerLink]="['/']">Book Now!</a>
           </div>
         </div>
