@@ -3,27 +3,96 @@ import { Component, OnInit } from '@angular/core';
 @Component({
     selector: 'main-page',
     styles: [`
-        .page-banner {
-            color:white;
+        .hero-banner {
+            background-image: url('https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            position: relative;
         }
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+        .top-carousel {
+            height: 350px;
+            max-width: 900px;
+        }
+
     `],
     template: `
-        <div class="container">
-
-            <!-- banner -->
-            <div class="col-xs-12 page-banner" style="color:white">
-                <!-- <img src="../assets/images/eyelash-main-cover.png" height="400px;" width="100%"> -->
-                <h1>Welcome Baddies</h1>
+        <!-- banner -->
+        <div class="hero-banner">
+            <div class="container hero-text ">
+               <h2 class="my-3">WAKE UP FLAWLESS</h2>
+               <p class="my-3"></p>
+               <button class="btn btn-md btn-outline-success">BOOK YOUR APPOINTMENT</button>
             </div>
-            
+        </div>
+          
+        <div class="container my-5">
             <!-- About me -->
-            <div class="row border border-secondary rounded">
-                <div class="col-xs-12 col-lg-6">picture</div>
-                <div class="col-xs-12 col-lg-6">About me</div>
+            <div class="col-xs-12 row p-4 mx-1 mb-5 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1">little bit about me</h1>
+                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+                </div>
             </div>
 
             <!-- testimony -->
+            <div class="col-xs-12 border top-carousel mx-auto">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide bg-light" style="height:100%" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner text-dark" style="height:100%;">
+                        <div class="carousel-item active" style="height:100%; top:-75px;">
+                            <div class="carousel-caption">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height:100%; top:-75px;">
+                            <div class="carousel-caption" >
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height:100%; top:-75px;">
+                            <div class="carousel-caption">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
 
+                <div class="col-xs-12 text-center my-3">
+                    <button class="btn btn-md btn-outline-success">Book your appointment!</button>
+                </div>
+            </div>
             <!-- instagram feed -->
         </div>
     `

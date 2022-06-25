@@ -29,52 +29,52 @@ import { Component, OnInit } from '@angular/core';
   `],
   template: `
     <footer >
-      <div class="container row text-muted">
-        <div class="col-md-4 mb-0 text-center">
-            <p><img src="../favicon.ico" atl="Website Logo"></p>
-            <p>&copy; 2022 beautylashesbygabby LLC</p>
-            <p>Made by Carlos Villanueva</p>
-            <div class="template-demo text-center mb-2"> 
-              <button class="btn btn-social-icon btn-github"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button> 
-              <button class="btn btn-social-icon btn-linkedin"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button> 
-              <button class="btn btn-social-icon btn-instagram"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></button>
-            </div>
+      <div class="container row text-muted mx-auto">
+        <div class="col-md-4 text-center">
+          <p><img src="../favicon.ico" atl="Website Logo"></p>
+          <p>&copy; 2022 beautylashesbygabby LLC</p>
+          <p>Made by Carlos Villanueva</p>
+          <div class="template-demo text-center mb-2"> 
+            <button class="btn btn-social-icon btn-github"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button> 
+            <button class="btn btn-social-icon btn-linkedin"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button> 
+            <button class="btn btn-social-icon btn-instagram"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></button>
+          </div>
         </div>
         
-        <div class="col-md-4 mb-0 text-center">
-            <label>Business Hours:</label>
-            <table class="table table-condensed table-borderless text-center">
-              <tbody>
-                <tr>
-                  <td>Monday</td>
-                  <td>8am-5pm</td>
-                </tr>
-                <tr>
-                  <td>Tuesday</td>
-                  <td>8am-5pm</td>
-                </tr>
-                <tr>
-                  <td>Wednesday</td>
-                  <td>8am-5pm</td>
-                </tr>
-                <tr>
-                  <td>Thursday</td>
-                  <td>8am-5pm</td>
-                </tr>
-                <tr>
-                  <td>Friday</td>
-                  <td>8am-5pm</td>
-                </tr>
-                <tr>
-                  <td>Saturday</td>
-                  <td>8am-5pm</td>
-                </tr>
-                <tr>
-                  <td>Sunday</td>
-                  <td>Off</td>
-                </tr>
-              </tbody>
-            </table>
+        <div class="col-md-4 text-center">
+          <label>Business Hours:</label>
+          <table class="table table-condensed table-borderless text-center">
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>8am-5pm</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>8am-5pm</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>8am-5pm</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>8am-5pm</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>8am-5pm</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>8am-5pm</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Off</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         
         <div class="col-md-4 text-center my-auto">
