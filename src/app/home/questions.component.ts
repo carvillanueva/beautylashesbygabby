@@ -175,7 +175,7 @@ template: `
             <div class="card-header">
               <h4 class="collapsed" data-toggle="collapse" data-target="#item3">Why do we use it?</h4>
             </div>
-            <div id="item3" class="collapse" data-parent="#faqs-content">
+            <div id="item3" class="collapse show" data-parent="#faqs-content">
               <div class="card-body">
                 <p>
                   It is a long established fact that a reader will be
@@ -195,7 +195,7 @@ template: `
             <div class="card-header">
               <h4 class="collapsed" data-toggle="collapse" data-target="#item4">Where can I get some?</h4>
             </div>
-            <div id="item4" class="collapse" data-parent="#faqs-content">
+            <div id="item4" class="collapse show" data-parent="#faqs-content">
               <div class="card-body">
                 <p>
                   There are many variations of passages of Lorem Ipsum
