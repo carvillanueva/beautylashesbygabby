@@ -36,7 +36,7 @@ import { Component, OnInit } from '@angular/core';
             </div>
         </div>
           
-        <div class="container my-5">
+        <div class="container mb-5 after-banner-fix">
             <!-- About me -->
             <div class="col-xs-12 row p-4 mx-1 mb-5 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">

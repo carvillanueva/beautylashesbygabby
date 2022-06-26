@@ -80,3 +80,7 @@
     .img-round {
         border-radius: 50%;
     }
+
+    .after-banner-fix {
+        margin-top: -200px;
+    }

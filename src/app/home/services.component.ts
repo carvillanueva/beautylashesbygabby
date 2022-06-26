@@ -42,7 +42,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </div>
 
-    <div class="container text-center services-list my-5">
+    <div class="container text-center services-list mb-5 after-banner-fix">
 
       <div class="row col-sm-12">
         <div class="col-sm-4">

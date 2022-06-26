@@ -145,7 +145,7 @@ template: `
       <button class="btn btn-md btn-outline-success">BOOK YOUR APPOINTMENT</button>
     </div>
   </div>
-  <div class="container">
+  <div class="container mb-5 after-banner-fix">
     <div class="section-title">
       <h2>Frequently Asked Questions</h2>
       <div class="separator"></div>

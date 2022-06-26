@@ -34,7 +34,7 @@ import { Component, OnInit } from '@angular/core';
     </div>
   
   
-    <div class="container col-xs-12 my-5"> 
+    <div class="container col-xs-12 mb-5 after-banner-fix"> 
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
