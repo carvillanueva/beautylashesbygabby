@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
       padding-bottom: 100px;
       background-color: #fdeff9;;
       color:white;
+      font-family: 'Domine', serif;
     }
     a {
       color: white;
@@ -28,7 +29,7 @@ import { Component, OnInit } from '@angular/core';
     }
   `],
   template: `
-    <footer >
+    <footer>
       <div class="container row text-muted mx-auto">
         <div class="col-md-4 text-center">
           <p><img src="../favicon.ico" atl="Website Logo"></p>

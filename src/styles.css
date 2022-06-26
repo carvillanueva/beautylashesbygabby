@@ -84,3 +84,9 @@
     .after-banner-fix {
         margin-top: -200px;
     }
+
+    .hero-text h2 {
+        line-height: 35px;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }

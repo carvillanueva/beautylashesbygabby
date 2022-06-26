@@ -21,16 +21,9 @@ import { Component, OnInit } from '@angular/core';
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: 'Courgette', cursive;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: #c70000;
-  }
   a,
   a:hover,
   a:focus,
@@ -140,9 +133,9 @@ template: `
   <!-- banner -->
   <div class="hero-banner">
     <div class="container hero-text ">
-      <h2 class="my-3">GALLERY</h2>
+      <h2 class="my-3">FAQs</h2>
       <p class="my-3"></p>
-      <button class="btn btn-md btn-outline-success">BOOK YOUR APPOINTMENT</button>
+      <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
     </div>
   </div>
   <div class="container mb-5 after-banner-fix">

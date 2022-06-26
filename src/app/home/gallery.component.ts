@@ -20,6 +20,7 @@ import { Component, OnInit } from '@angular/core';
       left: 50%;
       transform: translate(-50%, -50%);
       color: white;
+      font-family: 'Courgette', cursive;
     }
  
   `],
@@ -29,7 +30,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="container hero-text ">
         <h2 class="my-3">GALLERY</h2>
         <p class="my-3"></p>
-        <button class="btn btn-md btn-outline-success">BOOK YOUR APPOINTMENT</button>
+        <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
       </div>
     </div>
   

@@ -19,6 +19,7 @@ import { Component, OnInit } from '@angular/core';
             left: 50%;
             transform: translate(-50%, -50%);
             color: white;
+            font-family: 'Courgette', cursive;
         }
         .top-carousel {
             height: 350px;
@@ -29,10 +30,10 @@ import { Component, OnInit } from '@angular/core';
     template: `
         <!-- banner -->
         <div class="hero-banner">
-            <div class="container hero-text ">
+            <div class="container hero-text fs-1 ">
                <h2 class="my-3">WAKE UP FLAWLESS</h2>
                <p class="my-3"></p>
-               <button class="btn btn-md btn-outline-success">BOOK YOUR APPOINTMENT</button>
+               <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
             </div>
         </div>
           
@@ -53,7 +54,7 @@ import { Component, OnInit } from '@angular/core';
             </div>
 
             <!-- testimony -->
-            <div class="col-xs-12 border top-carousel mx-auto">
+            <div class=" border top-carousel mx-auto">
                 <div id="carouselExampleDark" class="carousel carousel-dark slide bg-light" style="height:100%" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -91,9 +92,10 @@ import { Component, OnInit } from '@angular/core';
                 </div>
 
                 <div class="col-xs-12 text-center my-3">
-                    <button class="btn btn-md btn-outline-success">Book your appointment!</button>
+                    <button class="btn btn-md btn-outline-secondary">Book your appointment!</button>
                 </div>
             </div>
+
             <!-- instagram feed -->
         </div>
     `
