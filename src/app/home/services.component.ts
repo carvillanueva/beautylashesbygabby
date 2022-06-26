@@ -6,11 +6,12 @@ import { Component, OnInit } from '@angular/core';
   selector: 'services-page',
   styles: [`
     .hero-banner {
-      background-image: url('https://images.unsplash.com/photo-1550005869-5fca7db35ddb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+      background-image: url('https://images.unsplash.com/photo-1581022295432-7fabcc628434?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
       background-repeat: no-repeat;
       background-size: cover;
-      height: 500px;
+      height: 800px;
       position: relative;
+      top: -300px;
     }
     .hero-text {
       text-align: center;

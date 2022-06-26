@@ -3,6 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'main-header',
   styles: [`
+    nav {
+      background-color: transparent;
+      z-index: 999;
+    }
     .nav-masthead .nav-link {
       color: slategrey;
       border-bottom: 2px solid transparent;
@@ -19,10 +23,9 @@ import { Component, OnInit } from '@angular/core';
       border: solid 2px hotpink;
       border-radius: 5px;
     } */
- 
   `],
   template: `
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fdeff9;">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../favicon.ico" atl="Website Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

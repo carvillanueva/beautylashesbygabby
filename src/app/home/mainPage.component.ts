@@ -4,12 +4,13 @@ import { Component, OnInit } from '@angular/core';
     selector: 'main-page',
     styles: [`
         .hero-banner {
-            background-image: url('https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80');
+            background-image: url('https://images.unsplash.com/photo-1589307004173-3c95204d00ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            height: 500px;
+            height: 800px;
             position: relative;
+            top: -300px;
         }
         .hero-text {
             text-align: center;
