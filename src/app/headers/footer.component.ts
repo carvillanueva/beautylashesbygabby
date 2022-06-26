@@ -79,13 +79,25 @@ import { Component, OnInit } from '@angular/core';
         
         <div class="col-md-4 text-center my-auto">
           <label class="form-label" >Navigation</label>
-          <ul>
+          <table class="table table-condensed table-borderless text-center lh-lg fs-6">
+            <tbody>
+              <tr>
+                <td><a class="text-decoration-none text-muted" [routerLink]="['services']">Services</a></td>
+                <td><a class="text-decoration-none text-muted" [routerLink]="['questions']">FAQs</a></td>
+              </tr>
+              <tr>
+                <td><a class="text-decoration-none text-muted" [routerLink]="['gallery']">Gallery</a></td>
+                <td><a class="text-decoration-none text-muted" [routerLink]="['policies']">Policies</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- <ul>
             <li><a class="text-decoration-none text-muted" [routerLink]="['services']">Services</a></li>
             <li><a class="text-decoration-none text-muted" [routerLink]="['gallery']">Gallery</a></li>
             <li><a class="text-decoration-none text-muted" [routerLink]="['questions']">FAQs</a></li>
             <li><a class="text-decoration-none text-muted" [routerLink]="['policies']">Policies</a></li>
             <li><a class="text-decoration-none text-muted" [routerLink]="['/']">Book Now!</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </footer>

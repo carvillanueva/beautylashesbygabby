@@ -23,6 +23,12 @@ import { Component, OnInit } from '@angular/core';
     .services-list {
       max-width:1100px;
     }
+    .vertical-line{
+      border-left: 1px solid pink;
+      height: 45px;
+      position: relative;
+      right: -50%;
+    }
  
   `],
   template: `
@@ -38,13 +44,15 @@ import { Component, OnInit } from '@angular/core';
     <div class="container text-center services-list my-5">
 
       <div class="row col-sm-12">
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           1
         </div>
-        <div class="col-sm-3">
-          2
+        <div class="col-sm-4">
+          <label>Hybrid Set</label>
+          <div class="vertical-line my-3"></div>
+          <label>$100</label>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
           3
         </div>
       </div>
@@ -52,27 +60,15 @@ import { Component, OnInit } from '@angular/core';
       <hr>
 
       <div class="row col-sm-12">
-        <div class="col-sm-6">
-          3
-        </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           1
         </div>
-        <div class="col-sm-3">
-          2
+        <div class="col-sm-4">
+          <label>Full Set</label>
+          <div class="vertical-line my-3"></div>
+          <label>$100</label>
         </div>
-      </div>
-
-      <hr>
-
-      <div class="row col-sm-12">
-        <div class="col-sm-3">
-          1
-        </div>
-        <div class="col-sm-3">
-          2
-        </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
           3
         </div>
       </div>
@@ -80,14 +76,32 @@ import { Component, OnInit } from '@angular/core';
       <hr>
 
       <div class="row col-sm-12">
-        <div class="col-sm-6">
-          3
-        </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           1
         </div>
-        <div class="col-sm-3">
-          2
+        <div class="col-sm-4">
+          <label>Retention Set</label>
+          <div class="vertical-line my-3"></div>
+          <label>$100</label>
+        </div>
+        <div class="col-sm-4">
+          3
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row col-sm-12">
+        <div class="col-sm-4">
+          1
+        </div>
+        <div class="col-sm-4">
+          <label>Mega Set</label>
+          <div class="vertical-line my-3"></div>
+          <label>$100</label>
+        </div>
+        <div class="col-sm-4">
+          3
         </div>
       </div>
 
