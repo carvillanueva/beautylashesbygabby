@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     footer {
       padding-top: 100px;
       padding-bottom: 100px;
-      background-color: #fdeff9;;
+      background-color: #fdeff9;
       color:white;
       font-family: 'Domine', serif;
     }

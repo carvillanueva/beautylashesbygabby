@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'policies-page',
   styles: [`
     .hero-banner {
-      background-image: url('https://images.unsplash.com/photo-1582794543462-0d7922e50cf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80');
+      background-image: url('https://images.unsplash.com/photo-1516642898673-edd1ced08e87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -32,6 +32,8 @@ import { Component, OnInit } from '@angular/core';
         <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
       </div>
     </div>
+
+    <div class="container text-center mb-5 after-banner-fix"></div>
   `,
 })
 export class PoliciesComponent implements OnInit {

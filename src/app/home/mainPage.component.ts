@@ -37,9 +37,9 @@ import { Component, OnInit } from '@angular/core';
             </div>
         </div>
           
-        <div class="container mb-5 after-banner-fix">
+        <div class=" mb-5 after-banner-fix">
             <!-- About me -->
-            <div class="col-xs-12 row p-4 mx-1 mb-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">little bit about me</h1>
                     <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
@@ -54,49 +54,55 @@ import { Component, OnInit } from '@angular/core';
             </div>
 
             <!-- testimony -->
-            <div class=" border top-carousel mx-auto">
-                <div id="carouselExampleDark" class="carousel carousel-dark slide bg-light" style="height:100%" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="py-5" style="background-color: #fdeff9;;">
+                <div class="container top-carousel mx-auto">
+                    <div id="carouselExampleDark" class="carousel rounded carousel-dark slide bg-light" style="height:100%" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner text-dark" style="height:100%;">
+                            <div class="carousel-item active" style="height:100%; top:-75px;">
+                                <div class="carousel-caption">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="height:100%; top:-75px;">
+                                <div class="carousel-caption" >
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="height:100%; top:-75px;">
+                                <div class="carousel-caption">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <div class="carousel-inner text-dark" style="height:100%;">
-                        <div class="carousel-item active" style="height:100%; top:-75px;">
-                            <div class="carousel-caption">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item" style="height:100%; top:-75px;">
-                            <div class="carousel-caption" >
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item" style="height:100%; top:-75px;">
-                            <div class="carousel-caption">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
 
-                <div class="col-xs-12 text-center my-3">
-                    <button class="btn btn-md btn-outline-secondary">Book your appointment!</button>
+                    <div class="col-xs-12 text-center my-3">
+                        <button class="btn btn-md btn-outline-secondary">Book your appointment!</button>
+                    </div>
                 </div>
             </div>
 
+
             <!-- instagram feed -->
+            <div class="col-xs-12 ">
+                <div class="elfsight-app-36ef57ad-df3f-496e-81a8-a2ac2779e57f"></div>
+            </div>
         </div>
     `
 })
