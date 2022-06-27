@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
       background-color: #fdeff9;
       color:white;
       font-family: 'Domine', serif;
+      margin-top: 25px;
     }
     a {
       color: white;

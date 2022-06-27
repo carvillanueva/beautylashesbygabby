@@ -37,16 +37,12 @@ import { Component, OnInit } from '@angular/core';
             </div>
         </div>
           
-        <div class=" mb-5 after-banner-fix">
+        <div class="after-banner-fix">
             <!-- About me -->
-            <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px;">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-4 fw-bold lh-1">little bit about me</h1>
+                    <h1 class="display-4 fw-bold lh-1">little bit about me...</h1>
                     <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-                    </div>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
                     <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
@@ -54,7 +50,7 @@ import { Component, OnInit } from '@angular/core';
             </div>
 
             <!-- testimony -->
-            <div class="py-5" style="background-color: #fdeff9;;">
+            <div class="py-5 bckground-pink">
                 <div class="container top-carousel mx-auto">
                     <div id="carouselExampleDark" class="carousel rounded carousel-dark slide bg-light" style="height:100%" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -91,16 +87,12 @@ import { Component, OnInit } from '@angular/core';
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-
-                    <div class="col-xs-12 text-center my-3">
-                        <button class="btn btn-md btn-outline-secondary">Book your appointment!</button>
-                    </div>
                 </div>
             </div>
 
 
             <!-- instagram feed -->
-            <div class="col-xs-12 ">
+            <div class="">
                 <div class="elfsight-app-36ef57ad-df3f-496e-81a8-a2ac2779e57f"></div>
             </div>
         </div>

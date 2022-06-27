@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'services-page',
   styles: [`
     .hero-banner {
-      background-image: url('https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+      background-image: url('https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHBpbmt8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
       background-repeat: no-repeat;
       background-size: cover;
       height: 800px;
@@ -112,7 +112,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="row col-xs-12">
         <div class="col-sm-6">
           <ul class="list-group">
-            <li class="list-group-item bckground-pink" aria-current="true">LASH FILL INS</li>
+            <li class="list-group-item bckground-pink" aria-current="true"><u>LASH FILL INS</u></li>
             <li class="list-group-item">MEGA VOLUME FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$80</span></li>
             <li class="list-group-item">VOLUME FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$70</span></li>
             <li class="list-group-item">HYBRID FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$60</span></li>
@@ -121,7 +121,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col-sm-6">
           <ul class="list-group">
-            <li class="list-group-item bckground-pink" aria-current="true">ADD ONS</li>
+            <li class="list-group-item bckground-pink" aria-current="true"><u>ADD ONS</u></li>
             <li class="list-group-item">LASH REMOVAL <span class="badge rounded-pill text-muted bckground-pink mx-2">$20</span></li>
             <li class="list-group-item">ANY WISPY SETS <span class="badge rounded-pill text-muted bckground-pink mx-2">$10</span></li>
             <li class="list-group-item">SPARKLY LASHES <span class="badge rounded-pill text-muted bckground-pink mx-2">$7</span></li>
