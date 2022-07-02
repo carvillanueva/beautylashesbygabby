@@ -90,10 +90,13 @@ import { Component, OnInit } from '@angular/core';
                 </div>
             </div>
 
+            <div class="elfsight-app-5b4c3435-a56c-41da-842c-3a10ae8e6a61"></div>
+
+
 
             <!-- instagram feed -->
             <div class="">
-                <div class="elfsight-app-36ef57ad-df3f-496e-81a8-a2ac2779e57f"></div>
+                <!-- <div class="elfsight-app-36ef57ad-df3f-496e-81a8-a2ac2779e57f"></div> -->
             </div>
         </div>
     `

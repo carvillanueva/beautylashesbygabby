@@ -9,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
     }
     .nav-masthead .nav-link {
       color: slategrey;
+      font-size: 15px;
       border-bottom: 2px solid transparent;
+      font-weight: 600;
     }
     .nav-masthead .nav-link:hover,
     .nav-masthead .nav-link:focus {
