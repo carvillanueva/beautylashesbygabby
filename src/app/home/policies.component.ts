@@ -28,12 +28,31 @@ import { Component, OnInit } from '@angular/core';
     <div class="hero-banner">
       <div class="container hero-text ">
         <h2 class="my-3">POLICIES</h2>
-        <p class="my-3">PLEASE READ CAREFULLY!</p>
+        <p class="my-3">please take the time to read my policies carefully.</p>
+        <p class="my-3">if you have any questions, feel free to send me a message in my contact form!</p>
         <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
       </div>
     </div>
 
-    <div class="container text-center mb-5 after-banner-fix"></div>
+    <div class="container row mb-5 after-banner-fix mx-auto">
+
+      <div class="card col-md-6">
+        <h5 class="card-header">Appointment Information</h5>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+
+      <div class="card col-md-6">
+        <h5 class="card-header">Deposit Information</h5>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+
+    </div>
   `,
 })
 export class PoliciesComponent implements OnInit {

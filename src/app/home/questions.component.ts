@@ -148,22 +148,11 @@ template: `
         <div class="accordion" id="faqs-content">
           <div class="card">
             <div class="card-header">
-              <h4 data-toggle="collapse" data-target="#item1"> What is Lorem Ipsum?</h4>
+              <h4 data-toggle="collapse" data-target="#item1"> How long do these appointments last?</h4>
             </div>
             <div id="item1" class="collapse show" data-parent="#faqs-content">
               <div class="card-body">
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a
-                  type specimen book.
-                </p>
-                <p>
-                  It has survived not only five centuries, but also the leap
-                  into electronic typesetting, remaining essentially
-                  unchanged.
-                </p>
+                <p> L</p>
               </div>
             </div>
           </div>
