@@ -30,6 +30,7 @@ import { Component, OnInit } from '@angular/core';
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../favicon.ico" atl="Website Logo"></a>
+        <!-- <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../assets/images/logo.jpg" atl="Website Logo"></a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,12 +40,12 @@ import { Component, OnInit } from '@angular/core';
             <a class="mx-5 nav-link" [routerLink]="['gallery']">Gallery</a>
             <a class="mx-5 nav-link" [routerLink]="['questions']">FAQs</a>
             <a class="mx-5 nav-link" [routerLink]="['policies']">Policies</a>
-            <a class="mx-5 nav-link book-btn" [routerLink]="['/']">Book Now!</a>
+            <a class="mx-5 nav-link book-btn" [routerLink]="['policies']">Book Now!</a>
           </div>
         </div>
-        <div class="text-center d-none d-sm-inline"> 
-          <div class="socials mx-2 d-inline-block"><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook text-muted"></i></a></div> 
-          <div class="socials mx-2 d-inline-block"><a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok text-muted"></i></a></div> 
+        <div class="text-center d-none d-sm-inline">
+          <div class="socials mx-2 d-inline-block"><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook text-muted"></i></a></div>
+          <div class="socials mx-2 d-inline-block"><a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok text-muted"></i></a></div>
           <div class="socials mx-2 d-inline-block"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram text-muted"></i></a></div>
         </div>
       </div>

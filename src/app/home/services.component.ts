@@ -27,11 +27,17 @@ import { Component, OnInit } from '@angular/core';
     }
     .vertical-line{
       border-left: 1px solid pink;
-      height: 45px;
+      height: 100px;
       position: relative;
       right: -50%;
+      width: 2px;
     }
- 
+    img {
+      border-radius: 15px;
+      max-height: 250px;
+      border: solid 2px pink;
+    }
+
   `],
   template: `
     <!-- banner -->
@@ -44,18 +50,25 @@ import { Component, OnInit } from '@angular/core';
     </div>
 
     <div class="container text-center services-list mb-5 after-banner-fix">
-
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          1
+          <img src="../../assets/images/mega-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 my-auto">
           <label>Mega Volume Set</label>
           <div class="vertical-line my-3"></div>
-          <label>$115</label>
+          <label>$120</label>
         </div>
-        <div class="col-sm-4">
-          3
+        <div class="col-sm-4 my-auto">
+          <div>
+            <label>Typical Time: <span>3.5 hours</span></label>
+          </div>
+          <hr>
+          <div>
+            <label>Description:</label>
+            <p>Mega Volume set is the most dramatic set. 10d-16d fans are places on one natural lash!</p>
+            <p class="text-muted" style="font-size: 12px;">**I will be checking to see if your lashes are strong enough to hold a mega set! If your lashes are damaged and weak I will not be able to apply a mega set. **</p>
+          </div>
         </div>
       </div>
 
@@ -63,15 +76,22 @@ import { Component, OnInit } from '@angular/core';
 
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          1
+          <img src="../../assets/images/volume-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 my-auto">
           <label>Volume Set</label>
           <div class="vertical-line my-3"></div>
-          <label>$95</label>
+          <label>$100</label>
         </div>
-        <div class="col-sm-4">
-          3
+        <div class="col-sm-4 my-auto">
+          <div>
+            <label>Typical Time: <span>2 hours</span></label>
+          </div>
+          <hr>
+          <div>
+            <label>Description:</label>
+            <p>Volume lash set gives a supper flull and fluffy look. It offers the volume you need!</p>
+          </div>
         </div>
       </div>
 
@@ -79,15 +99,23 @@ import { Component, OnInit } from '@angular/core';
 
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          1
+          <img src="../../assets/images/hybrid-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 my-auto">
           <label>Hybrid Set</label>
           <div class="vertical-line my-3"></div>
-          <label>$85</label>
+          <label>$90</label>
         </div>
-        <div class="col-sm-4">
-          3
+        <div class="col-sm-4 my-auto">
+          <div>
+            <label>Typical Time: <span>2 hours</span></label>
+          </div>
+          <hr>
+          <div>
+            <label>Description:</label>
+            <p>Hybrid lash set is a mixture of classic and volume.</p>
+            <p>This is a popular set because it offers the perfect amount of fullness without being too dramatic!</p>
+          </div>
         </div>
       </div>
 
@@ -95,15 +123,23 @@ import { Component, OnInit } from '@angular/core';
 
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          1
+          <img src="../../assets/images/classic-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 my-auto">
           <label>Classic Set</label>
           <div class="vertical-line my-3"></div>
-          <label>$75</label>
+          <label>$80</label>
         </div>
-        <div class="col-sm-4">
-          3
+        <div class="col-sm-4 my-auto">
+          <div>
+            <label>Typical Time: <span>2.5 hours</span></label>
+          </div>
+          <hr>
+          <div>
+            <label>Description:</label>
+            <p>Classis sets are the most natural looking set.</p>
+            <p>One lash extension is flued to one natural lash, the fullness will depend on how many natural lashes each client has!</p>
+          </div>
         </div>
       </div>
 
