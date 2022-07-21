@@ -41,40 +41,46 @@ import { Component, OnInit } from '@angular/core';
       <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Appointment Information</h5>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <ul class="card-text">
+            <li>All appointments <strong>require</strong> a $20 non-refundable deposit to book. This deposit will go towards the remaining balance of your appointment.
+              <p class="text-danger fw-bold">No deposit = No appointment</p>
+            </li>
+            <li>You will have 24 hours to submit your deposit. If a deposit is not sent I will cancel your appointment.</li>
+            <li></li>
+          </ul>
         </div>
       </div>
 
       <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Deposit Information</h5>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
 
       <div class="card col-md-5 d-inline-block m-2">
-        <h5 class="card-header">Deposit Information</h5>
+        <h5 class="card-header">Cancellations / Rescheduling</h5>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
 
       <div class="card col-md-5 d-inline-block m-2">
-        <h5 class="card-header">Deposit Information</h5>
+        <h5 class="card-header">Other Information</h5>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
 
       <div class="card col-md-5 d-inline-block m-2">
-        <h5 class="card-header">Deposit Information</h5>
+        <h5 class="card-header">Day of Appointment</h5>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <ol class="card-text">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
         </div>
       </div>
 
