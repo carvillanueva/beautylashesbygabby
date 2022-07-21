@@ -36,7 +36,7 @@ import { Component, OnInit } from '@angular/core';
                <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
             </div>
         </div>
-          
+
         <div class="after-banner-fix">
             <!-- About me -->
             <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px;">
@@ -90,7 +90,9 @@ import { Component, OnInit } from '@angular/core';
                 </div>
             </div>
 
-            <div class="elfsight-app-5b4c3435-a56c-41da-842c-3a10ae8e6a61"></div>
+            <div class="col-xs-12 px-3">
+                <div class="elfsight-app-5b4c3435-a56c-41da-842c-3a10ae8e6a61"></div>
+            </div>
 
 
 

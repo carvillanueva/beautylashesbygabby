@@ -37,6 +37,10 @@ import { Component, OnInit } from '@angular/core';
       max-height: 250px;
       border: solid 2px pink;
     }
+    .my-auto {
+      margin-top:10px;
+      margin-bottom: 10px;
+    }
 
   `],
   template: `
@@ -54,16 +58,17 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4">
           <img src="../../assets/images/mega-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4 my-auto">
-          <label>Mega Volume Set</label>
-          <div class="vertical-line my-3"></div>
-          <label>$120</label>
+        <div class="col-sm-4 my-3">
+          <div class="my-auto">
+            <label>Mega Volume Set</label>
+            <div class="vertical-line my-3"></div>
+            <label>$120</label>
+          </div>
         </div>
         <div class="col-sm-4 my-auto">
           <div>
             <label>Typical Time: <span>3.5 hours</span></label>
           </div>
-          <hr>
           <div>
             <label>Description:</label>
             <p>Mega Volume set is the most dramatic set. 10d-16d fans are places on one natural lash!</p>
@@ -78,16 +83,17 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4">
           <img src="../../assets/images/volume-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4 my-auto">
-          <label>Volume Set</label>
-          <div class="vertical-line my-3"></div>
-          <label>$100</label>
+        <div class="col-sm-4 my-3">
+          <div class="my-auto">
+            <label>Volume Set</label>
+            <div class="vertical-line my-3"></div>
+            <label>$100</label>
+          </div>
         </div>
         <div class="col-sm-4 my-auto">
           <div>
             <label>Typical Time: <span>2 hours</span></label>
           </div>
-          <hr>
           <div>
             <label>Description:</label>
             <p>Volume lash set gives a supper flull and fluffy look. It offers the volume you need!</p>
@@ -101,16 +107,17 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4">
           <img src="../../assets/images/hybrid-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4 my-auto">
-          <label>Hybrid Set</label>
-          <div class="vertical-line my-3"></div>
-          <label>$90</label>
+        <div class="col-sm-4 my-3">
+          <div class="my-auto">
+            <label>Hybrid Set</label>
+            <div class="vertical-line my-3"></div>
+            <label>$90</label>
+          </div>
         </div>
         <div class="col-sm-4 my-auto">
           <div>
             <label>Typical Time: <span>2 hours</span></label>
           </div>
-          <hr>
           <div>
             <label>Description:</label>
             <p>Hybrid lash set is a mixture of classic and volume.</p>
@@ -125,16 +132,17 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4">
           <img src="../../assets/images/classic-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4 my-auto">
-          <label>Classic Set</label>
-          <div class="vertical-line my-3"></div>
-          <label>$80</label>
+        <div class="col-sm-4 my-3">
+          <div class="my-auto">
+            <label>Classic Set</label>
+            <div class="vertical-line my-3"></div>
+            <label>$80</label>
+          </div>
         </div>
         <div class="col-sm-4 my-auto">
           <div>
             <label>Typical Time: <span>2.5 hours</span></label>
           </div>
-          <hr>
           <div>
             <label>Description:</label>
             <p>Classis sets are the most natural looking set.</p>
@@ -148,12 +156,13 @@ import { Component, OnInit } from '@angular/core';
       <div class="row col-xs-12">
         <div class="col-sm-6">
           <ul class="list-group">
-            <li class="list-group-item bckground-pink" aria-current="true"><u>LASH FILL INS</u></li>
+            <li class="list-group-item bckground-pink" aria-current="true"><u>LASH FILL INS</u>  </li>
             <li class="list-group-item">MEGA VOLUME FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$80</span></li>
             <li class="list-group-item">VOLUME FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$70</span></li>
             <li class="list-group-item">HYBRID FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$60</span></li>
             <li class="list-group-item">CLASSIC FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$50</span></li>
           </ul>
+          <button type="button" class="btn btn-sm btn-outline-secondary my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View Fill-In Requirements</button>
         </div>
         <div class="col-sm-6">
           <ul class="list-group">
@@ -165,6 +174,27 @@ import { Component, OnInit } from '@angular/core';
             <li class="list-group-item">LASH BATHS <span class="badge rounded-pill text-muted bckground-pink mx-2">$5</span></li>
             <li class="list-group-item">LASH KITS <span class="badge rounded-pill text-muted bckground-pink mx-2">$10</span></li>
           </ul>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Fill-In Requirements</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <label>Fill ins are accepted 2-3 weeks after first service appointment. <span class="fw-bold text-danger">No longer than 3 weeks.</span></label>
+              <label>Must have 50% of your lashes on for a fill in.</label>
+              <label>If you can count your lashes or have less than 50% of your lashes in, <span class="fw-bold">you will be charged for a full set.</span></label>
+              <label>Typical Time: 2 hours</label>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Understood</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

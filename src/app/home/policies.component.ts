@@ -34,9 +34,11 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </div>
 
-    <div class="container row mb-5 after-banner-fix mx-auto">
-
-      <div class="card col-md-6">
+    <div class="container mb-5 after-banner-fix mx-auto text-center">
+        <div class="card-body fs-4 text-danger text-center">
+          PLEASE READ MY POLOCIES CAREFULLY.
+        </div>
+      <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Appointment Information</h5>
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
@@ -44,7 +46,31 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </div>
 
-      <div class="card col-md-6">
+      <div class="card col-md-5 d-inline-block m-2">
+        <h5 class="card-header">Deposit Information</h5>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+
+      <div class="card col-md-5 d-inline-block m-2">
+        <h5 class="card-header">Deposit Information</h5>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+
+      <div class="card col-md-5 d-inline-block m-2">
+        <h5 class="card-header">Deposit Information</h5>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+
+      <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Deposit Information</h5>
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
