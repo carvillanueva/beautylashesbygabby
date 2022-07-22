@@ -36,7 +36,7 @@ import { Component, OnInit } from '@angular/core';
 
     <div class="container mb-5 after-banner-fix mx-auto text-center">
         <div class="card-body fs-4 text-danger text-center">
-          PLEASE READ MY POLOCIES CAREFULLY.
+          PLEASE READ MY POLICIES CAREFULLY.
         </div>
       <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Appointment Information</h5>
@@ -76,14 +76,24 @@ import { Component, OnInit } from '@angular/core';
         <h5 class="card-header">Day of Appointment</h5>
         <div class="card-body">
           <ol class="card-text">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Please remember to wear a mask during your appointment.</li>
+            <li>Remember I do not allow extra guests.</li>
+            <li>Go to the restroom before arriving. You will be laying for the duration of the service.</li>
+            <li>Remove all makeup before arriving. Arrive with a clean face.</li>
+            <li>Arrive on time.</li>
+            <li>When arriving to my studio, I would greatly appreciate it if you sent me an insta DM letting me know you have arrived.</li>
+            <li>Compared to look fabulous after!!</li>
           </ol>
         </div>
       </div>
 
+      <a href="#contact" class="text-decoration-none">
+        <div class="card">
+          <div class="card-body text-center text-dark bg-danger bg-opacity-10 border border-danger rounded-end">
+            You must follow by these policies. I understand there are some things that are out of our control. Send me a messgae if you have any questions or concerns. <u>Contact me here!</u>
+          </div>
+        </div>
+      </a>
     </div>
   `,
 })

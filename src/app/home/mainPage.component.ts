@@ -39,13 +39,13 @@ import { Component, OnInit } from '@angular/core';
 
         <div class="after-banner-fix">
             <!-- About me -->
-            <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px;">
+            <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px; z-index: 2">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">little bit about me...</h1>
                     <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                    <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+                    <img class="rounded shadow" src="../../assets/images/profile-pic.jpg" style="border: solid 2px hotpink" width="100%">
                 </div>
             </div>
 
@@ -90,12 +90,11 @@ import { Component, OnInit } from '@angular/core';
                 </div>
             </div>
 
-            <div class="container mx-auto my-5" id="contact" style="max-width:650px;">
+            <div class="container mx-auto my-5" style="max-width:650px;">
                 <div class="row p-4 align-items-center rounded-3 border shadow-lg">
-                <div class="col-xs-12 p-3 text-center">
+                <div class="col-xs-12 p-3 text-center" id="contact">
                     <h1 class="display-4 fw-bold">Contact me!!</h1>
                     <p class="lead">Feel free to contact me with any questions you may have!</p>
-                    <span class="text-mute fs-6">Social Links</span>
                 </div>
                 <!-- form - elfsight -->
                 <div class="elfsight-app-5b4c3435-a56c-41da-842c-3a10ae8e6a61"></div>

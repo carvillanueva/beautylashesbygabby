@@ -46,7 +46,7 @@ import { Component, OnInit } from '@angular/core';
             <img src="../../assets/images/gallery/tip-pic1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lash Tips</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Tips to come prepared for your lash appointment! Please remember to read my <a [routerLink]="['policies']">policies</a> before coming!</p>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ import { Component, OnInit } from '@angular/core';
             <img src="../../assets/images/gallery/client1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Client Spotlight</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">A classic set makes everyone look fabulous!!</p>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ import { Component, OnInit } from '@angular/core';
             <img src="../../assets/images/gallery/client2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Client Spotlight</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">A hybrid set on these pretty eyes!!</p>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ import { Component, OnInit } from '@angular/core';
             <img src="../../assets/images/gallery/heart-lashRoom.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Valentine Lash Room</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">My lash room Valentine set up! Pink on Pink on Pink :))</p>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ import { Component, OnInit } from '@angular/core';
             <img src="../../assets/images/gallery/tip-pic2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lash Tips!</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Remember to clean your lashes to keep them pretty and strong!</p>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ import { Component, OnInit } from '@angular/core';
             <img src="../../assets/images/gallery/spooky-lashRoom.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Halloween Lash Room</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">A little spooky season set up!!!</p>
             </div>
           </div>
         </div>
@@ -99,8 +99,8 @@ import { Component, OnInit } from '@angular/core';
           <div class="card">
             <img src="../../assets/images/gallery/client3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Client Spotlight</h5>
+              <p class="card-text">Add a little sparkly lash to your next set!! Volume set (11-14) pink sparkly lash!</p>
             </div>
           </div>
         </div>
@@ -108,8 +108,8 @@ import { Component, OnInit } from '@angular/core';
           <div class="card">
             <img src="../../assets/images/gallery/cleint4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Client Spotlight</h5>
+              <p class="card-text">Hot girl summer lashes!! Wispy Hybrid: (11mm-14mm) splikes (13-17)</p>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ import { Component, OnInit } from '@angular/core';
             <img src="../../assets/images/gallery/tip-pic3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lash Tips!</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Keep your lashes clean!!</p>
             </div>
           </div>
         </div>
