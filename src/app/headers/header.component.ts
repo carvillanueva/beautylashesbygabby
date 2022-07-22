@@ -21,10 +21,6 @@ import { Component, OnInit } from '@angular/core';
     .nav-masthead .nav-link + .nav-link {
       margin-left: 1rem;
     }
-    /* .book-btn {
-      border: solid 2px hotpink;
-      border-radius: 5px;
-    } */
   `],
   template: `
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -40,7 +36,7 @@ import { Component, OnInit } from '@angular/core';
             <a class="mx-5 nav-link" [routerLink]="['gallery']">Gallery</a>
             <a class="mx-5 nav-link" [routerLink]="['questions']">FAQs</a>
             <a class="mx-5 nav-link" [routerLink]="['policies']">Policies</a>
-            <a class="mx-5 nav-link book-btn" [routerLink]="['policies']">Book Now!</a>
+            <a class="mx-5 nav-link book-btn" [routerLink]="['/']">Book Now!</a>
           </div>
         </div>
         <div class="text-center d-none d-sm-inline">

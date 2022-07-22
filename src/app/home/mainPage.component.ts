@@ -90,11 +90,16 @@ import { Component, OnInit } from '@angular/core';
                 </div>
             </div>
 
-            <div class="col-xs-12 px-3">
+            <div class="container mx-auto my-5" id="contact" style="max-width:650px;">
+                <div class="row p-4 align-items-center rounded-3 border shadow-lg">
+                <div class="col-xs-12 p-3 text-center">
+                    <h1 class="display-4 fw-bold">Contact me!!</h1>
+                    <p class="lead">Feel free to contact me with any questions you may have!</p>
+                    <span class="text-mute fs-6">Social Links</span>
+                </div>
+                <!-- form - elfsight -->
                 <div class="elfsight-app-5b4c3435-a56c-41da-842c-3a10ae8e6a61"></div>
             </div>
-
-
 
             <!-- instagram feed -->
             <div class="">

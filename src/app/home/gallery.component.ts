@@ -22,7 +22,11 @@ import { Component, OnInit } from '@angular/core';
       color: white;
       font-family: 'Courgette', cursive;
     }
- 
+    .card img {
+      min-height: 500px;
+      max-height: 500px;
+    }
+
   `],
   template: `
     <!-- banner -->
@@ -33,22 +37,22 @@ import { Component, OnInit } from '@angular/core';
         <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
       </div>
     </div>
-  
-  
-    <div class="container col-xs-12 mb-5 after-banner-fix"> 
+
+
+    <div class="container col-xs-12 mb-5 after-banner-fix">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../../assets/images/gallery/tip-pic1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Lash Room</h5>
+              <h5 class="card-title">Lash Tips</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../../assets/images/gallery/client1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Client Spotlight</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -57,7 +61,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../../assets/images/gallery/client2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Client Spotlight</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -66,7 +70,34 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../../assets/images/gallery/heart-lashRoom.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Valentine Lash Room</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../assets/images/gallery/tip-pic2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lash Tips!</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../assets/images/gallery/spooky-lashRoom.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Halloween Lash Room</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../assets/images/gallery/client3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -75,7 +106,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../../assets/images/gallery/cleint4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -84,18 +115,9 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="../../assets/images/gallery/tip-pic3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Lash Tips!</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
@@ -107,7 +129,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class GalleryComponent implements OnInit {
-  
+
   constructor( ) { }
 
   ngOnInit() { }

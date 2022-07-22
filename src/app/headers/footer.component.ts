@@ -28,6 +28,9 @@ import { Component, OnInit } from '@angular/core';
     ul li {
       line-height: 35px;
     }
+    td a:hover {
+      border-bottom: solid 1px hotpink;
+    }
   `],
   template: `
     <footer>
@@ -36,13 +39,13 @@ import { Component, OnInit } from '@angular/core';
           <p><img src="../favicon.ico" atl="Website Logo"></p>
           <p>&copy; 2022 beautylashesbygabby LLC</p>
           <p>Made by Carlos Villanueva</p>
-          <div class="template-demo text-center mb-2"> 
-            <button class="btn btn-social-icon btn-github"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button> 
-            <button class="btn btn-social-icon btn-linkedin"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button> 
+          <div class="template-demo text-center mb-2">
+            <button class="btn btn-social-icon btn-github"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button>
+            <button class="btn btn-social-icon btn-linkedin"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button>
             <button class="btn btn-social-icon btn-instagram"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></button>
           </div>
         </div>
-        
+
         <div class="col-md-4 text-center">
           <label>Business Hours:</label>
           <table class="table table-condensed table-borderless text-center">
@@ -78,9 +81,9 @@ import { Component, OnInit } from '@angular/core';
             </tbody>
           </table>
         </div>
-        
+
         <div class="col-md-4 text-center my-auto">
-          <label class="form-label" >Navigation</label>
+          <label class="form-label">Navigation</label>
           <table class="table table-condensed table-borderless text-center lh-lg fs-6">
             <tbody>
               <tr>
@@ -93,13 +96,6 @@ import { Component, OnInit } from '@angular/core';
               </tr>
             </tbody>
           </table>
-          <!-- <ul>
-            <li><a class="text-decoration-none text-muted" [routerLink]="['services']">Services</a></li>
-            <li><a class="text-decoration-none text-muted" [routerLink]="['gallery']">Gallery</a></li>
-            <li><a class="text-decoration-none text-muted" [routerLink]="['questions']">FAQs</a></li>
-            <li><a class="text-decoration-none text-muted" [routerLink]="['policies']">Policies</a></li>
-            <li><a class="text-decoration-none text-muted" [routerLink]="['/']">Book Now!</a></li>
-          </ul> -->
         </div>
       </div>
     </footer>
