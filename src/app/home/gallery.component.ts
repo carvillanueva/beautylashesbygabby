@@ -13,15 +13,6 @@ import { Component, OnInit } from '@angular/core';
       position: relative;
       top: -300px;
     }
-    .hero-text {
-      text-align: center;
-      position: absolute;
-      top: 75%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-family: 'Courgette', cursive;
-    }
     .card img {
       min-height: 500px;
       max-height: 500px;
@@ -46,7 +37,7 @@ import { Component, OnInit } from '@angular/core';
             <img src="../../assets/images/gallery/tip-pic1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lash Tips</h5>
-              <p class="card-text">Tips to come prepared for your lash appointment! Please remember to read my <a [routerLink]="['policies']">policies</a> before coming!</p>
+              <p class="card-text">Tips to come prepared for your lash appointment! Please remember to read my <a href="#policy-page">policies</a> before coming!</p>
             </div>
           </div>
         </div>

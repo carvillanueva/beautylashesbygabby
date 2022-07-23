@@ -12,15 +12,6 @@ import { Component, OnInit } from '@angular/core';
       position: relative;
       top: -300px;
     }
-    .hero-text {
-      text-align: center;
-      position: absolute;
-      top: 75%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-family: 'Courgette', cursive;
-    }
   `,
   ],
   template: `
@@ -34,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </div>
 
-    <div class="container mb-5 after-banner-fix mx-auto text-center">
+    <div class="container mb-5 after-banner-fix mx-auto text-center" id="#policy-page">
         <div class="card-body fs-4 text-danger text-center">
           PLEASE READ MY POLICIES CAREFULLY.
         </div>

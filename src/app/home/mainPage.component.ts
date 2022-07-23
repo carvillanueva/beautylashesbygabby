@@ -12,15 +12,7 @@ import { Component, OnInit } from '@angular/core';
             position: relative;
             top: -300px;
         }
-        .hero-text {
-            text-align: center;
-            position: absolute;
-            top: 75%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-family: 'Courgette', cursive;
-        }
+
         .top-carousel {
             height: 350px;
             max-width: 900px;
@@ -31,18 +23,18 @@ import { Component, OnInit } from '@angular/core';
         <!-- banner -->
         <div class="hero-banner">
             <div class="container hero-text fs-1 ">
-               <h2 class="my-3">WAKE UP FLAWLESS</h2>
+               <h2 class="my-3">ABCDEFGHIJKLM</h2>
                <p class="my-3"></p>
-               <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
+               <button class="book-btn btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
             </div>
         </div>
 
         <div class="after-banner-fix">
             <!-- About me -->
             <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px; z-index: 2">
-                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 text-center">
                     <h1 class="display-4 fw-bold lh-1">little bit about me...</h1>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <p class="lead">HII!! My name is Gabby (@gabbyvill). I am a certified lash technician from (whatever institution). I have been lashing beautitful baddies like yourself for over a year now. I have loved seeing the transformation and the confidence lashes gives people. </p>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
                     <img class="rounded shadow" src="../../assets/images/profile-pic.jpg" style="border: solid 2px hotpink" width="100%">
@@ -91,9 +83,9 @@ import { Component, OnInit } from '@angular/core';
             </div>
 
             <div class="container mx-auto my-5" style="max-width:650px;">
-                <div class="row p-4 align-items-center rounded-3 border shadow-lg">
-                <div class="col-xs-12 p-3 text-center" id="contact">
-                    <h1 class="display-4 fw-bold">Contact me!!</h1>
+                <div class="row p-4 align-items-center mx-3  rounded-3 border shadow-lg">
+                <div class="col-xs-12 p-3 text-center">
+                    <h1 class="display-4 fw-bold" id="contact">Contact me!!</h1>
                     <p class="lead">Feel free to contact me with any questions you may have!</p>
                 </div>
                 <!-- form - elfsight -->

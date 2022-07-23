@@ -23,7 +23,7 @@ import { Component, OnInit } from '@angular/core';
     }
   `],
   template: `
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
       <div class="container">
         <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../favicon.ico" atl="Website Logo"></a>
         <!-- <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../assets/images/logo.jpg" atl="Website Logo"></a> -->

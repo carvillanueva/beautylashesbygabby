@@ -14,15 +14,6 @@ import { Component, OnInit } from '@angular/core';
     position: relative;
     top: -300px;
   }
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Courgette', cursive;
-  }
 
   a,
   a:hover,

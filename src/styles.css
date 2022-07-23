@@ -2,6 +2,7 @@
     * {
         margin: 0;
         padding: 0;
+        font-family: Sweet-sans-pro;
     }
     .fadePage {
         animation: fadeInAnimation ease 1s;
@@ -82,7 +83,16 @@
     }
 
     .after-banner-fix {
-        margin-top: -200px;
+        margin-top: -250px;
+    }
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 66%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'Courgette', cursive;
     }
 
     .hero-text h2 {
@@ -93,3 +103,6 @@
     .bckground-pink {
         background-color: #fdeff9;
     }
+    /* .book-btn {
+
+    } */

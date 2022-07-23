@@ -13,15 +13,6 @@ import { Component, OnInit } from '@angular/core';
       position: relative;
       top: -300px;
     }
-    .hero-text {
-      text-align: center;
-      position: absolute;
-      top: 75%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-family: 'Courgette', cursive;
-    }
     .services-list {
       max-width:1100px;
     }
@@ -60,19 +51,19 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col-sm-4 my-3">
           <div class="my-auto">
-            <label>Mega Volume Set</label>
+            <label class="fs-5 fw-semibold ">Mega Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label>$120</label>
+            <label class="fst-italic fs-5" style="color:pink">$120</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
           <div>
-            <label>Typical Time: <span>3.5 hours</span></label>
-          </div>
-          <div>
             <label>Description:</label>
             <p>Mega Volume set is the most dramatic set. 10d-16d fans are places on one natural lash!</p>
             <p class="text-muted" style="font-size: 12px;">**I will be checking to see if your lashes are strong enough to hold a mega set! If your lashes are damaged and weak I will not be able to apply a mega set. **</p>
+          </div>
+          <div>
+            <label>Duration: <span>3.5 hours</span></label>
           </div>
         </div>
       </div>
@@ -85,18 +76,18 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col-sm-4 my-3">
           <div class="my-auto">
-            <label>Volume Set</label>
+            <label class="fs-5 fw-semibold">Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label>$100</label>
+            <label class="fst-italic fs-5" style="color:pink">$100</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
           <div>
-            <label>Typical Time: <span>2 hours</span></label>
-          </div>
-          <div>
             <label>Description:</label>
             <p>Volume lash set gives a supper flull and fluffy look. It offers the volume you need!</p>
+          </div>
+          <div>
+            <label>Duration: <span>2 hours</span></label>
           </div>
         </div>
       </div>
@@ -109,19 +100,18 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col-sm-4 my-3">
           <div class="my-auto">
-            <label>Hybrid Set</label>
+            <label class="fs-5 fw-semibold">Hybrid Set</label>
             <div class="vertical-line my-3"></div>
-            <label>$90</label>
+            <label class="fst-italic fs-5" style="color:pink">$90</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
           <div>
-            <label>Typical Time: <span>2 hours</span></label>
+            <label>Description:</label>
+            <p>Hybrid lash set is a mixture of classic and volume. This is a popular set because it offers the perfect amount of fullness without being too dramatic!</p>
           </div>
           <div>
-            <label>Description:</label>
-            <p>Hybrid lash set is a mixture of classic and volume.</p>
-            <p>This is a popular set because it offers the perfect amount of fullness without being too dramatic!</p>
+            <label>Duration: <span>2 hours</span></label>
           </div>
         </div>
       </div>
@@ -134,19 +124,18 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col-sm-4 my-3">
           <div class="my-auto">
-            <label>Classic Set</label>
+            <label class="fs-5 fw-semibold">Classic Set</label>
             <div class="vertical-line my-3"></div>
-            <label>$80</label>
+            <label class="fst-italic fs-5" style="color:pink">$80</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
           <div>
-            <label>Typical Time: <span>2.5 hours</span></label>
+            <label>Description:</label>
+            <p>Classis sets are the most natural looking set. One lash extension is glued to one natural lash, the fullness will depend on how many natural lashes each client has!</p>
           </div>
           <div>
-            <label>Description:</label>
-            <p>Classis sets are the most natural looking set.</p>
-            <p>One lash extension is flued to one natural lash, the fullness will depend on how many natural lashes each client has!</p>
+            <label>Duration: <span>2.5 hours</span></label>
           </div>
         </div>
       </div>
@@ -189,7 +178,7 @@ import { Component, OnInit } from '@angular/core';
               <label>Fill ins are accepted 2-3 weeks after first service appointment. <span class="fw-bold text-danger">No longer than 3 weeks.</span></label>
               <label>Must have 50% of your lashes on for a fill in.</label>
               <label>If you can count your lashes or have less than 50% of your lashes in, <span class="fw-bold">you will be charged for a full set.</span></label>
-              <label>Typical Time: 2 hours</label>
+              <label>Duration:: 2 hours</label>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Understood</button>
