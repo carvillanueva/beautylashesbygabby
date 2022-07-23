@@ -27,6 +27,14 @@ import { Component, OnInit } from '@angular/core';
             font-style: italic;
             transform: translateX(-50%);
         }
+        .info-hello {
+            font-family: 'Allura', cursive;
+            font-size: 100px;
+            color: lightpink;
+            position: absolute;
+            top: 40px;
+            left: 200px;
+        }
         @media (max-width: 800px) {
             .baddie-reviews{
                 font-size: 45px;
@@ -34,7 +42,12 @@ import { Component, OnInit } from '@angular/core';
                 text-align: center;
                 margin-top: 15px;
             }
-
+            .info-hello {
+                font-size: 65px;
+                width: 100%;
+                top: -15px;
+                left: 0;
+            }
         }
 
     `],
@@ -50,10 +63,11 @@ import { Component, OnInit } from '@angular/core';
 
         <div class="after-banner-fix">
             <!-- About me -->
-            <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px; z-index: 2">
+            <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px; z-index: 2; position: relative">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 text-center">
-                    <h1 class="display-4 fw-bold lh-1">little bit about me...</h1>
-                    <p class="lead">HII!! My name is Gabby (@gabbyvill). I am a certified lash technician from (whatever institution). I have been lashing beautitful baddies like yourself for over a year now. I have loved seeing the transformation and the confidence lashes gives people. </p>
+                    <span class="info-hello opacity-50">hey baddies!!</span>
+                    <h3 class="fw-semibold">I'M GABBY V</h3>
+                    <p class="lead">HII!! yall should follow me on my socials! I am a certified lash technician from (whatever institution). I have been lashing beautitful baddies like yourself for over a year now. I have loved seeing the transformation and the confidence lashes gives people. </p>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
                     <img class="rounded shadow" src="../../assets/images/profile-pic.jpg" style="border: solid 2px hotpink" width="100%">

@@ -54,7 +54,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
 
         <div class="col-md-4 text-center">
-          <label class="hours-title">Business Hours:</label>
+          <label class="hours-title">Business Hours</label>
           <table class="table table-condensed table-borderless text-center">
             <tbody>
               <tr>
