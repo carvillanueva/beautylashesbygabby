@@ -12,10 +12,29 @@ import { Component, OnInit } from '@angular/core';
             position: relative;
             top: -300px;
         }
-
         .top-carousel {
             height: 350px;
-            max-width: 900px;
+            max-width: 1100px;
+        }
+        .baddie-reviews {
+            font-size: 65px;
+            color: hotpink;
+            font-family: 'Allura', cursive;
+            z-index:10;
+            position: absolute;
+            left: 50%;
+            top:0px;
+            font-style: italic;
+            transform: translateX(-50%);
+        }
+        @media (max-width: 800px) {
+            .baddie-reviews{
+                font-size: 45px;
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
+            }
+
         }
 
     `],
@@ -23,9 +42,9 @@ import { Component, OnInit } from '@angular/core';
         <!-- banner -->
         <div class="hero-banner">
             <div class="container hero-text fs-1 ">
-               <h2 class="my-3">ABCDEFGHIJKLM</h2>
+               <h2 class="my-3">Look flawless everyday!!</h2>
                <p class="my-3"></p>
-               <button class="book-btn btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
+               <button class="book-btn btn btn-md btn-outline-light my-3">BOOK YOUR APPOINTMENT HERE!!</button>
             </div>
         </div>
 
@@ -43,6 +62,9 @@ import { Component, OnInit } from '@angular/core';
 
             <!-- testimony -->
             <div class="py-5 bckground-pink">
+                <div class="">
+                    <span class="baddie-reviews">reviews from baddies</span>
+                </div>
                 <div class="container top-carousel mx-auto">
                     <div id="carouselExampleDark" class="carousel rounded carousel-dark slide bg-light" style="height:100%" data-bs-ride="carousel">
                         <div class="carousel-indicators">

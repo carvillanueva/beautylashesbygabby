@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
       padding-top: 100px;
       padding-bottom: 100px;
       background-color: #fdeff9;
-      color:white;
-      font-family: 'Domine', serif;
+      /* font-family: 'Allura', cursive; */
       margin-top: 25px;
+    }
+    .hours-title {
+      font-family: 'Allura', cursive;
+      color: hotpink;
+      font-size: 35px;
     }
     a {
       color: white;
@@ -18,7 +22,7 @@ import { Component, OnInit } from '@angular/core';
       color: grey;
     }
     table {
-      font-size: 12px;
+      font-size: 15px;
       line-height: 10px;
     }
     ul {
@@ -31,6 +35,9 @@ import { Component, OnInit } from '@angular/core';
     td a:hover {
       border-bottom: solid 1px hotpink;
     }
+    i {
+      padding:4px;
+    }
   `],
   template: `
     <footer>
@@ -40,39 +47,39 @@ import { Component, OnInit } from '@angular/core';
           <p>&copy; 2022 beautylashesbygabby LLC</p>
           <p>Made by Carlos Villanueva</p>
           <div class="template-demo text-center mb-2">
-            <button class="btn btn-social-icon btn-github"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button>
-            <button class="btn btn-social-icon btn-linkedin"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button>
+            <button class="btn btn-social-icon btn-facebook"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button>
+            <button class="btn btn-social-icon btn-tiktok"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button>
             <button class="btn btn-social-icon btn-instagram"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></button>
           </div>
         </div>
 
         <div class="col-md-4 text-center">
-          <label>Business Hours:</label>
+          <label class="hours-title">Business Hours:</label>
           <table class="table table-condensed table-borderless text-center">
             <tbody>
               <tr>
                 <td>Monday</td>
-                <td>8am-5pm</td>
+                <td>9am-5pm</td>
               </tr>
               <tr>
                 <td>Tuesday</td>
-                <td>8am-5pm</td>
+                <td>9am-5pm</td>
               </tr>
               <tr>
                 <td>Wednesday</td>
-                <td>8am-5pm</td>
+                <td>9am-5pm</td>
               </tr>
               <tr>
                 <td>Thursday</td>
-                <td>8am-5pm</td>
+                <td>9am-5pm</td>
               </tr>
               <tr>
                 <td>Friday</td>
-                <td>8am-5pm</td>
+                <td>9am-5pm</td>
               </tr>
               <tr>
                 <td>Saturday</td>
-                <td>8am-5pm</td>
+                <td>Off</td>
               </tr>
               <tr>
                 <td>Sunday</td>
@@ -83,7 +90,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
 
         <div class="col-md-4 text-center my-auto">
-          <label class="form-label">Navigation</label>
+          <label class="form-label hours-title">Navigation</label>
           <table class="table table-condensed table-borderless text-center lh-lg fs-6">
             <tbody>
               <tr>

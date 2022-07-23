@@ -38,10 +38,12 @@ import { Component, OnInit } from '@angular/core';
   }
   .section-title h2 {
     margin: 0 0 10px;
+    font-style: italic;
+    color: hotpink;
   }
   .separator {
-    background-color: #ccc;
-    border: 1px solid #ccc;
+    background-color: pink;
+    border: 1px solid pink;
     display: block;
     height: 5px;
     margin: 0 auto;
@@ -49,7 +51,7 @@ import { Component, OnInit } from '@angular/core';
     width: 60px;
   }
   .separator::after {
-    background: #666;
+    background: hotpink;
     content: '';
     height: 5px;
     left: -1px;
@@ -75,49 +77,23 @@ import { Component, OnInit } from '@angular/core';
     background: #fff;
     border: none;
   }
+  .card:hover {
+    color: hotpink;
+    cursor: pointer;
+  }
   .card-header h4 {
     margin: 0;
     padding: 25px 45px 25px 25px;
     cursor: pointer;
     position: relative;
     font-size: 20px;
+    font-weight: 700;
   }
-  .card-header h4.collapsed::after {
-    width: 20px;
-    height: 22px;
-    position: absolute;
-    top: 50%;
-    right: 24px;
-    content: '\f055';
-    font-family: FontAwesome;
-    font-size: 22px;
-    line-height: 22px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    transform: translateY(-50%);
+  .card-body p {
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  .card-header h4::after {
-    width: 20px;
-    height: 22px;
-    position: absolute;
-    top: 50%;
-    right: 24px;
-    content: '\f056';
-    font-family: FontAwesome;
-    font-size: 22px;
-    line-height: 22px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  .card-body {
-    padding: 0 25px 25px;
-  }
-  .card-body p:last-child {
-    margin: 0;
-  }
+
 `,
 ],
 template: `
@@ -126,92 +102,69 @@ template: `
     <div class="container hero-text ">
       <h2 class="my-3">FAQs</h2>
       <p class="my-3"></p>
-      <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
+      <button class="btn btn-md btn-outline-light my-3">BOOK YOUR APPOINTMENT HERE!!</button>
     </div>
   </div>
   <div class="container mb-5 after-banner-fix">
     <div class="section-title">
-      <h2>Frequently Asked Questions</h2>
+      <h2 class="">Frequently Asked Questions</h2>
       <div class="separator"></div>
     </div>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <div class="accordion" id="faqs-content">
           <div class="card">
             <div class="card-header">
-              <h4 data-toggle="collapse" data-target="#item1"> How long do these appointments last?</h4>
+              <h4>Q - How long do these appointments last?</h4>
             </div>
-            <div id="item1" class="collapse show" data-parent="#faqs-content">
-              <div class="card-body">
-                <p> L</p>
-              </div>
+            <div class="card-body">
+              <p> Appointments last around 2-3hrs depending on the service you select.
+                  I don't rush on my work so please make sure you allocate enough time in your day to get these done!
+              </p>
+              <p>To get more information about duration please visit the services page!</p>
             </div>
           </div>
 
           <div class="card">
             <div class="card-header">
-              <h4 class="collapsed" data-toggle="collapse" data-target="#item2">Where does it come from?</h4>
+              <h4>Q - Where are you located?</h4>
             </div>
-            <div id="item2" class="collapse show" data-parent="#faqs-content">
-              <div class="card-body">
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply
-                  random text. It has roots in a piece of classical Latin
-                  literature from 45 BC, making it over 2000 years old.
-                </p>
-                <p>
-                  Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
-                  Finibus Bonorum et Malorum" (The Extremes of Good and
-                  Evil) by Cicero, written in 45 BC.
-                </p>
-              </div>
+            <div class="card-body">
+              <p>
+                I am located in Birmingham, Alabama. Chelsea, Alabama to be more specific.
+                I typically send a studio address out 48 hours before your appointment.
+              </p>
             </div>
           </div>
 
           <div class="card">
             <div class="card-header">
-              <h4 class="collapsed" data-toggle="collapse" data-target="#item3">Why do we use it?</h4>
+              <h4>Q - Question 3?</h4>
             </div>
-            <div id="item3" class="collapse show" data-parent="#faqs-content">
-              <div class="card-body">
-                <p>
-                  It is a long established fact that a reader will be
-                  distracted by the readable content of a page when looking
-                  at its layout.
-                </p>
-                <p>
-                  The point of using Lorem Ipsum is that it has a
-                  more-or-less normal distribution of letters, as opposed to
-                  using 'Content here, content here', making it look like
-                  readable English.
-                </p>
-              </div>
+            <div class="card-body">
+              <p>
+                It is a long established fact that a reader will be
+                distracted by the readable content of a page when looking
+                at its layout.
+              </p>
             </div>
           </div>
           <div class="card">
             <div class="card-header">
-              <h4 class="collapsed" data-toggle="collapse" data-target="#item4">Where can I get some?</h4>
+              <h4>Q - Question 4?</h4>
             </div>
-            <div id="item4" class="collapse show" data-parent="#faqs-content">
-              <div class="card-body">
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in
-                  some form, by injected humour, or randomised words which
-                  don't look even slightly believable.
-                </p>
-                <p>
-                  If you are going to use a passage of Lorem Ipsum, you need
-                  to be sure there isn't anything embarrassing hidden in the
-                  middle of text.
-                </p>
-              </div>
+            <div class="card-body">
+              <p>
+                There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration in
+                some form, by injected humour, or randomised words which
+                don't look even slightly believable.
+              </p>
+
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 `,
 })
 

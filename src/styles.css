@@ -34,13 +34,13 @@
         margin-top: 0.5rem !important
     }
 
-    .btn-github {
-        background: #ea4c89;
+    .btn-facebook {
+        background: #015682;
         color: #ffffff
     }
 
-    .btn-linkedin {
-        background: #0177b5;
+    .btn-tiktok {
+        background: black;
         color: #ffffff
     }
 
@@ -54,15 +54,15 @@
         color: #fff;
     }
 
-    .btn-github:hover,
-    .btn-github:focus {
-        background: #e51e6b;
+    .btn-facebook:hover,
+    .btn-facebook:focus {
+        background: #015682;
         color: #ffffff
     }
 
-    .btn-linkedin:hover,
-    .btn-linkedin:focus {
-        background: #015682;
+    .btn-tiktok:hover,
+    .btn-tiktok:focus {
+        background: black;
         color: #ffffff
     }
 
@@ -92,16 +92,17 @@
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        font-family: 'Courgette', cursive;
     }
-
     .hero-text h2 {
         line-height: 35px;
-        font-size: 40px;
+        font-size: 64px;
         letter-spacing: 3px;
+        font-family: 'Allura', cursive;
+
     }
     .bckground-pink {
         background-color: #fdeff9;
+        position: relative;
     }
     /* .book-btn {
 

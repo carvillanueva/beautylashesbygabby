@@ -19,9 +19,7 @@ import { Component, OnInit } from '@angular/core';
     <div class="hero-banner">
       <div class="container hero-text ">
         <h2 class="my-3">POLICIES</h2>
-        <p class="my-3">please take the time to read my policies carefully.</p>
-        <p class="my-3">if you have any questions, feel free to send me a message in my contact form!</p>
-        <button class="btn btn-md btn-outline-secondary">BOOK YOUR APPOINTMENT</button>
+        <button class="btn btn-md btn-outline-light my-3">BOOK YOUR APPOINTMENT HERE!!</button>
       </div>
     </div>
 
@@ -37,7 +35,7 @@ import { Component, OnInit } from '@angular/core';
               <p class="text-danger fw-bold">No deposit = No appointment</p>
             </li>
             <li>You will have 24 hours to submit your deposit. If a deposit is not sent I will cancel your appointment.</li>
-            <li></li>
+            <li>Appointments are first come first serve. Im sorry, but I get a lot of requests and this is the fairest way of doing things.</li>
           </ul>
         </div>
       </div>
@@ -81,7 +79,8 @@ import { Component, OnInit } from '@angular/core';
       <a href="#contact" class="text-decoration-none">
         <div class="card">
           <div class="card-body text-center text-dark bg-danger bg-opacity-10 border border-danger rounded-end">
-            You must follow by these policies. I understand there are some things that are out of our control. Send me a messgae if you have any questions or concerns. <u>Contact me here!</u>
+            You must follow by these policies. I understand there are some things that are out of our control. Send me a message if you have any questions or concerns.
+            <u>Contact me here!</u>
           </div>
         </div>
       </a>
