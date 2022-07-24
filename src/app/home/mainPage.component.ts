@@ -55,7 +55,7 @@ import { Component, OnInit } from '@angular/core';
         <!-- banner -->
         <div class="hero-banner">
             <div class="container hero-text fs-1 ">
-               <h2 class="my-3">Look flawless everyday!!</h2>
+               <h2 class="my-3">welcome to beautylashesbygabby</h2>
                <p class="my-3"></p>
                <button class="book-btn btn btn-md btn-outline-light my-3">BOOK YOUR APPOINTMENT HERE!!</button>
             </div>
@@ -66,7 +66,7 @@ import { Component, OnInit } from '@angular/core';
             <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px; z-index: 2; position: relative">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 text-center">
                     <span class="info-hello opacity-50">hey baddies!!</span>
-                    <h3 class="fw-semibold">I'M GABBY V</h3>
+                    <h3 class="fw-semibold" style="background-color:white;">I'M GABBY 🤍🤍🤍</h3>
                     <p class="lead">HII!! yall should follow me on my socials! I am a certified lash technician from (whatever institution). I have been lashing beautitful baddies like yourself for over a year now. I have loved seeing the transformation and the confidence lashes gives people. </p>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">

@@ -12,6 +12,12 @@ import { Component, OnInit } from '@angular/core';
       position: relative;
       top: -300px;
     }
+    .card-header {
+      background-color: rgba(255,192,203,.5)
+    }
+    ol li {
+      line-height: 30px;
+    }
   `,
   ],
   template: `
@@ -31,7 +37,7 @@ import { Component, OnInit } from '@angular/core';
         <h5 class="card-header">Appointment Information</h5>
         <div class="card-body">
           <ul class="card-text">
-            <li>All appointments <strong>require</strong> a $20 non-refundable deposit to book. This deposit will go towards the remaining balance of your appointment.
+            <li>All appointments <strong>require</strong> a $20 non-refundable deposit to book. Please send your deposit via VENMO or CASHAPP. This deposit will go towards the remaining balance of your appointment.
               <p class="text-danger fw-bold">No deposit = No appointment</p>
             </li>
             <li>You will have 24 hours to submit your deposit. If a deposit is not sent I will cancel your appointment.</li>
@@ -43,21 +49,52 @@ import { Component, OnInit } from '@angular/core';
       <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Deposit Information</h5>
         <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text">
+
+          </p>
         </div>
       </div>
 
       <div class="card col-md-5 d-inline-block m-2">
-        <h5 class="card-header">Cancellations / Rescheduling</h5>
+        <h5 class="card-header">Cancellations / Rescheduling / No Show</h5>
         <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <label class="fw-bold text-danger"><u>Cancelling</u></label>
+          <p class="card-text">
+            If you wish to cancel your appointment, please cancel within 48 hours of your appointment.
+            Failure to cancel within the time will result in you losing your deposit.
+          </p>
+        </div>
+
+        <div class="card-body">
+          <label class="fw-bold text-danger"><u>Rescheduling</u></label>
+          <p class="card-text">
+            You are only allowed to reschedule once with the same deposit.
+            Please rescheudle within 48 hours of your appointment.
+            I understand life happens so please let me know asap if you need to reschedule.
+            Failure to do so will result in you losing your deposit.
+          </p>
+        </div>
+
+        <div class="card-body">
+          <label class="fw-bold text-danger"><u>No Show 👎 </u></label>
+          <p class="card-text">
+            Please dont waste my time. There are other girls who wanted that spot too.
+            I am very understanding. Please communicate with me.
+            <span class="text-danger fw-bold">No show = Blocked from booking with me </span>
+          </p>
         </div>
       </div>
 
       <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Other Information</h5>
         <div class="card-body">
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <ul class="card-text">
+            <li>I do not allow extra guest/kids in my lash studio. I am willing to accomodate under certain circumstances. <a class="text-muted" href="#contact">Please send me a message if you need accomodations.</a></li>
+            <li>All baddies must arrive with a mask and must keep it on throughout the service. I will no longer provide extra masks.</li>
+            <li>Please know I do not work on other lash techs work!</li>
+            <li>I do not rush my work! I will try my very best to give you the set you want! I will not let any baddie leave without being satisfied!🤍🤍</li>
+          </ul>
+
         </div>
       </div>
 
@@ -69,9 +106,10 @@ import { Component, OnInit } from '@angular/core';
             <li>Remember I do not allow extra guests.</li>
             <li>Go to the restroom before arriving. You will be laying for the duration of the service.</li>
             <li>Remove all makeup before arriving. Arrive with a clean face.</li>
-            <li>Arrive on time.</li>
+            <li>Wear comfy clothes and bring headphone - whatever makes you comfortable.</li>
+            <li>Please arrive on time.</li>
             <li>When arriving to my studio, I would greatly appreciate it if you sent me an insta DM letting me know you have arrived.</li>
-            <li>Compared to look fabulous after!!</li>
+            <li>Come prepared to look fabulous after!!</li>
           </ol>
         </div>
       </div>
