@@ -32,10 +32,11 @@ import { Component, OnInit } from '@angular/core';
             font-size: 100px;
             color: lightpink;
             position: absolute;
-            top: 40px;
-            left: 200px;
+            top: 0px;
+            transform: translateX(-50%);
+
         }
-        @media (max-width: 800px) {
+        @media screen and (max-width: 500px) {
             .baddie-reviews{
                 font-size: 45px;
                 width: 100%;
@@ -46,7 +47,7 @@ import { Component, OnInit } from '@angular/core';
                 font-size: 65px;
                 width: 100%;
                 top: -15px;
-                left: 0;
+                right: -200px;
             }
         }
 

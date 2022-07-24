@@ -38,12 +38,17 @@ import { Component, OnInit } from '@angular/core';
     i {
       padding:4px;
     }
+    .beauty-logo {
+      width:100px;
+      height:100px;
+      border-radius: 50%;
+    }
   `],
   template: `
     <footer>
       <div class="container row text-muted mx-auto">
         <div class="col-md-4 text-center">
-          <p><img src="../favicon.ico" atl="Website Logo"></p>
+          <p><img class="beauty-logo" src="../assets/images/beauty-logo.jpg" atl="Website Logo"></p>
           <p>&copy; 2022 beautylashesbygabby LLC</p>
           <p>Made by Carlos Villanueva</p>
           <div class="template-demo text-center mb-2">
