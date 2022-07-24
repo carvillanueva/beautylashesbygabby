@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
       background-size: cover;
       height: 800px;
       position: relative;
-      top: -300px;
+      top: -350px;
     }
     .services-list {
       max-width:1100px;
@@ -25,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
     }
     img {
       border-radius: 15px;
-      max-height: 250px;
+      max-height: 225px;
       border: solid 2px pink;
     }
     .my-auto {
@@ -47,7 +47,7 @@ import { Component, OnInit } from '@angular/core';
     <div class="container text-center services-list mb-5 after-banner-fix">
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          <img src="../../assets/images/mega-set.jpg" width="100%;"/>
+          <img src="../../assets/images/service-page/mega-set.jpg" width="100%;"/>
         </div>
         <div class="col-sm-4 my-3">
           <div class="my-auto">
@@ -72,7 +72,7 @@ import { Component, OnInit } from '@angular/core';
 
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          <img src="../../assets/images/volume-set.jpg" width="100%;"/>
+          <img src="../../assets/images/service-page/volume-set.jpg" width="100%;"/>
         </div>
         <div class="col-sm-4 my-3">
           <div class="my-auto">
@@ -96,7 +96,7 @@ import { Component, OnInit } from '@angular/core';
 
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          <img src="../../assets/images/hybrid-set.jpg" width="100%;"/>
+          <img src="../../assets/images/service-page/hybrid-set.jpg" width="100%;"/>
         </div>
         <div class="col-sm-4 my-3">
           <div class="my-auto">
@@ -120,7 +120,7 @@ import { Component, OnInit } from '@angular/core';
 
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          <img src="../../assets/images/classic-set.jpg" width="100%;"/>
+          <img src="../../assets/images/service-page/classic-set.jpg" width="100%;"/>
         </div>
         <div class="col-sm-4 my-3">
           <div class="my-auto">

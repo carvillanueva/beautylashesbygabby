@@ -21,12 +21,17 @@ import { Component, OnInit } from '@angular/core';
     .nav-masthead .nav-link + .nav-link {
       margin-left: 1rem;
     }
+    .beauty-logo {
+      width:100px;
+      height:100px;
+      border-radius: 50%;
+    }
   `],
   template: `
     <nav class="navbar navbar-expand-lg navbar-light py-3">
       <div class="container">
-        <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../favicon.ico" atl="Website Logo"></a>
-        <!-- <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../assets/images/logo.jpg" atl="Website Logo"></a> -->
+        <!-- <a class="py-2 navbar-brand" [routerLink]="['main']"><img src="../favicon.ico" atl="Website Logo"></a> -->
+        <a class="py-2 navbar-brand" [routerLink]="['main']"><img class="beauty-logo" src="../assets/images/beauty-logo.jpg" atl="Website Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

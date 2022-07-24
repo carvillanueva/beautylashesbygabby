@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
       background-size: cover;
       height: 800px;
       position: relative;
-      top: -300px;
+      top: -350px;
     }
     .card img {
       min-height: 500px;

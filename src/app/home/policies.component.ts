@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
       background-size: cover;
       height: 800px;
       position: relative;
-      top: -300px;
+      top: -350px;
     }
     .card-header {
       background-color: rgba(255,192,203,.5)

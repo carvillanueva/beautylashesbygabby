@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
     background-size: cover;
     height: 800px;
     position: relative;
-    top: -300px;
+    top: -350px;
   }
 
   a,
@@ -138,28 +138,34 @@ template: `
 
           <div class="card">
             <div class="card-header">
-              <h4>Q - Question 3?</h4>
+              <h4>Q - How long do lashes typically last?</h4>
             </div>
             <div class="card-body">
               <p>
-                It is a long established fact that a reader will be
-                distracted by the readable content of a page when looking
-                at its layout.
+                Lash extensions typically last 2-3 weeks! All depends on how you take care of them!
               </p>
             </div>
           </div>
           <div class="card">
             <div class="card-header">
-              <h4>Q - Question 4?</h4>
+              <h4>Q - What can I wear to a lash appointment?</h4>
             </div>
             <div class="card-body">
               <p>
-                There are many variations of passages of Lorem Ipsum
-                available, but the majority have suffered alteration in
-                some form, by injected humour, or randomised words which
-                don't look even slightly believable.
+                I ask all my clients to come with fresh and clean lashes for a quicker service.
+                I recommend coming to your appointment wearing comfortable clothes!
               </p>
-
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <h4>Q - How do I care for my new lash set?</h4>
+            </div>
+            <div class="card-body">
+              <p>
+                I will give you instructions after your session on how to care for your new lashes.
+                I also offer lash bath kits!
+              </p>
             </div>
           </div>
         </div>

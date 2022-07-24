@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
             background-size: cover;
             height: 800px;
             position: relative;
-            top: -300px;
+            top: -350px;
         }
         .top-carousel {
             height: 350px;
@@ -67,7 +67,12 @@ import { Component, OnInit } from '@angular/core';
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 text-center">
                     <span class="info-hello opacity-50">hey baddies!!</span>
                     <h3 class="fw-semibold" style="background-color:white;">I'M GABBY 🤍🤍🤍</h3>
-                    <p class="lead">HII!! yall should follow me on my socials! I am a certified lash technician from (whatever institution). I have been lashing beautitful baddies like yourself for over a year now. I have loved seeing the transformation and the confidence lashes gives people. </p>
+                    <p class="lead">
+                        Hey girly!! My name is Gabby! I am veryexcited to become your lash tech! Thank you for choosing and trusting me!
+                        I am home based located in Chelsea, AL, so I ask for all my baddies to come with pure and good intentions.
+                        We are all baddies who deserve to get treated with bomb lashes. Can't wait to see you soon!
+                        Make sure to check out my services and policies page before booking!!
+                    </p>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
                     <img class="rounded shadow" src="../../assets/images/profile-pic.jpg" style="border: solid 2px hotpink" width="100%">
