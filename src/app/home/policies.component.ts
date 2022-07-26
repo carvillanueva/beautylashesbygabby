@@ -33,7 +33,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="card-body fs-4 text-danger text-center">
         PLEASE READ MY POLICIES CAREFULLY.
       </div>
-      <div class="card col-md-5 d-inline-block m-2">
+      <div class="card col-md-5 d-inline-flex m-2">
         <h5 class="card-header">Appointment Information</h5>
         <div class="card-body">
           <ul class="card-text">
