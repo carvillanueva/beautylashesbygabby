@@ -30,9 +30,9 @@ import { Component, OnInit } from '@angular/core';
     </div>
 
     <div class="container mb-5 after-banner-fix mx-auto text-center" id="#policy-page">
-        <div class="card-body fs-4 text-danger text-center">
-          PLEASE READ MY POLICIES CAREFULLY.
-        </div>
+      <div class="card-body fs-4 text-danger text-center">
+        PLEASE READ MY POLICIES CAREFULLY.
+      </div>
       <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Appointment Information</h5>
         <div class="card-body">
@@ -88,13 +88,12 @@ import { Component, OnInit } from '@angular/core';
       <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Other Information</h5>
         <div class="card-body">
-        <ul class="card-text">
+          <ul class="card-text">
             <li>I do not allow extra guest/kids in my lash studio. I am willing to accomodate under certain circumstances. <a class="text-muted" href="#contact">Please send me a message if you need accomodations.</a></li>
             <li>All baddies must arrive with a mask and must keep it on throughout the service. I will no longer provide extra masks.</li>
             <li>Please know I do not work on other lash techs work!</li>
             <li>I do not rush my work! I will try my very best to give you the set you want! I will not let any baddie leave without being satisfied!🤍🤍</li>
           </ul>
-
         </div>
       </div>
 

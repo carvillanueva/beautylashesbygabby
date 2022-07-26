@@ -11,6 +11,7 @@ import { MainPageComponent } from './home/mainPage.component';
 import { PoliciesComponent } from './home/policies.component';
 import { QuestionsComponent } from './home/questions.component';
 import { ServicesComponent } from './home/services.component';
+import { ToTheTopComponent } from './toTheTop.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ServicesComponent } from './home/services.component';
     PoliciesComponent,
     QuestionsComponent,
     GalleryComponent,
+    ToTheTopComponent
   ],
   imports: [
     BrowserModule,

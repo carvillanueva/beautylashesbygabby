@@ -178,7 +178,7 @@ import { Component, OnInit } from '@angular/core';
               <label>Fill ins are accepted 2-3 weeks after first service appointment. <span class="fw-bold text-danger">No longer than 3 weeks.</span></label>
               <label>Must have 50% of your lashes on for a fill in.</label>
               <label>If you can count your lashes or have less than 50% of your lashes in, <span class="fw-bold">you will be charged for a full set.</span></label>
-              <label>Duration:: 2 hours</label>
+              <label>Duration: 2 hours</label>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Understood</button>
