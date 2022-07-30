@@ -25,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
     }
     img {
       border-radius: 15px;
-      max-height: 225px;
+      max-height: 300px;
       border: solid 2px pink;
     }
     .my-auto {
@@ -49,7 +49,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4">
           <img src="../../assets/images/service-page/mega-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4 my-3">
+        <div class="col-sm-4 my-auto">
           <div class="my-auto">
             <label class="fs-5 fw-semibold ">Mega Volume Set</label>
             <div class="vertical-line my-3"></div>
@@ -74,7 +74,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4">
           <img src="../../assets/images/service-page/volume-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4 my-3">
+        <div class="col-sm-4 my-auto">
           <div class="my-auto">
             <label class="fs-5 fw-semibold">Volume Set</label>
             <div class="vertical-line my-3"></div>
@@ -98,7 +98,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4">
           <img src="../../assets/images/service-page/hybrid-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4 my-3">
+        <div class="col-sm-4 my-auto">
           <div class="my-auto">
             <label class="fs-5 fw-semibold">Hybrid Set</label>
             <div class="vertical-line my-3"></div>
@@ -122,7 +122,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4">
           <img src="../../assets/images/service-page/classic-set.jpg" width="100%;"/>
         </div>
-        <div class="col-sm-4 my-3">
+        <div class="col-sm-4 my-auto">
           <div class="my-auto">
             <label class="fs-5 fw-semibold">Classic Set</label>
             <div class="vertical-line my-3"></div>
@@ -151,7 +151,7 @@ import { Component, OnInit } from '@angular/core';
             <li class="list-group-item">HYBRID FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$60</span></li>
             <li class="list-group-item">CLASSIC FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$50</span></li>
           </ul>
-          <button type="button" class="btn btn-sm btn-outline-secondary my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View Fill-In Requirements</button>
+          <button type="button" class="btn btn-sm btn-outline-danger my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View Fill-In Requirements</button>
         </div>
         <div class="col-sm-6">
           <ul class="list-group">

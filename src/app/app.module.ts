@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './headers/footer.component';
 import { HeaderComponent } from './headers/header.component';
+import { BookComponent } from './home/book.component';
 import { GalleryComponent } from './home/gallery.component';
 import { MainPageComponent } from './home/mainPage.component';
 import { PoliciesComponent } from './home/policies.component';
@@ -23,6 +24,7 @@ import { ToTheTopComponent } from './toTheTop.component';
     PoliciesComponent,
     QuestionsComponent,
     GalleryComponent,
+    BookComponent,
     ToTheTopComponent
   ],
   imports: [
@@ -34,6 +36,7 @@ import { ToTheTopComponent } from './toTheTop.component';
       { path: 'policies', component: PoliciesComponent },
       { path: 'questions', component: QuestionsComponent },
       { path: 'gallery', component: GalleryComponent },
+      { path: 'book', component: BookComponent },
       { path: '', component: MainPageComponent },
     ]),
   ],

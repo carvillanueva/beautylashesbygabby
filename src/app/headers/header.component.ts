@@ -41,7 +41,7 @@ import { Component, OnInit } from '@angular/core';
             <a class="mx-5 nav-link" [routerLink]="['/gallery']">Gallery</a>
             <a class="mx-5 nav-link" [routerLink]="['/questions']">FAQs</a>
             <a class="mx-5 nav-link" [routerLink]="['/policies']">Policies</a>
-            <a class="mx-5 nav-link book-btn" [routerLink]="['/']">Book Now!</a>
+            <a class="mx-5 nav-link book-btn" [routerLink]="['/book']">Book Now!</a>
           </div>
         </div>
         <div class="text-center d-none d-sm-inline">
