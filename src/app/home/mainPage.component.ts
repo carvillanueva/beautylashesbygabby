@@ -58,7 +58,7 @@ import { Component, OnInit } from '@angular/core';
             <div class="container hero-text fs-1 ">
                <h2 class="my-3">welcome to beautylashesbygabby</h2>
                <p class="my-3"></p>
-               <button class="book-btn btn btn-md btn-outline-light my-3">BOOK YOUR APPOINTMENT HERE!!</button>
+               <button class="book-btn btn btn-md btn-outline-light my-3" [routerLink]="['/book']">BOOK YOUR APPOINTMENT HERE!!</button>
             </div>
         </div>
 

@@ -102,7 +102,7 @@ template: `
     <div class="container hero-text ">
       <h2 class="my-3">FAQs</h2>
       <p class="my-3"></p>
-      <button class="btn btn-md btn-outline-light my-3">BOOK YOUR APPOINTMENT HERE!!</button>
+      <button class="btn btn-md btn-outline-light my-3" [routerLink]="['/book']">BOOK YOUR APPOINTMENT HERE!!</button>
     </div>
   </div>
   <div class="container mb-5 after-banner-fix">
