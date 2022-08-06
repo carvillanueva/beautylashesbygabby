@@ -50,7 +50,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-md-4 text-center">
           <p><img class="beauty-logo" src="../assets/images/beauty-logo.jpg" atl="Website Logo"></p>
           <p>&copy; 2022 beautylashesbygabby LLC</p>
-          <p>Made by Carlos Villanueva</p>
+          <p><a href="https://civillanueva.com" target="_blank" class="text-decoration-none text-muted">Made by Carlos Villanueva</a></p>
           <div class="template-demo text-center mb-2">
             <button class="btn btn-social-icon btn-facebook"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button>
             <button class="btn btn-social-icon btn-tiktok"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button>
@@ -64,7 +64,7 @@ import { Component, OnInit } from '@angular/core';
             <tbody>
               <tr>
                 <td>Monday</td>
-                <td>9am-5pm</td>
+                <td>Off</td>
               </tr>
               <tr>
                 <td>Tuesday</td>
@@ -84,7 +84,7 @@ import { Component, OnInit } from '@angular/core';
               </tr>
               <tr>
                 <td>Saturday</td>
-                <td>Off</td>
+                <td>9am-5pm</td>
               </tr>
               <tr>
                 <td>Sunday</td>

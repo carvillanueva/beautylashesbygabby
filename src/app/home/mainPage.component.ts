@@ -50,6 +50,19 @@ import { Component, OnInit } from '@angular/core';
                 right: -200px;
             }
         }
+        @media screen and (max-width: 950px) {
+            .info-hello {
+                font-size: 75px;
+                width: 100%;
+                top: -30px;
+            }
+            .baddie-reviews{
+                font-size: 55px;
+                width: 100%;
+                text-align: center;
+            }
+
+        }
 
     `],
     template: `
@@ -67,7 +80,7 @@ import { Component, OnInit } from '@angular/core';
             <div class="col-xs-12 container row p-4 mx-auto mb-5 align-items-center shadow-lg" style="border-radius: 8px; z-index: 2; position: relative">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 text-center">
                     <span class="info-hello opacity-50">hey baddies!!</span>
-                    <h3 class="fw-semibold" style="background-color:white;">I'M GABBY 🤍🤍🤍</h3>
+                    <h3 class="fw-semibold" style="background-color:white;">WELCOME 🤍🤍🤍</h3>
                     <p class="lead">
                         Hey girly!! My name is Gabby! I am veryexcited to become your lash tech! Thank you for choosing and trusting me!
                         I am home based located in Chelsea, AL, so I ask for all my baddies to come with pure and good intentions.

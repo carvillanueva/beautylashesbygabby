@@ -23,7 +23,7 @@ import { Component, OnInit } from '@angular/core';
     <!-- banner -->
     <div class="hero-banner">
       <div class="container hero-text ">
-        <h2 class="my-3">GALLERY</h2>
+        <h2 class="my-3">gallery</h2>
         <p class="my-3"></p>
         <button class="btn btn-md btn-outline-light my-3" [routerLink]="['/book']">BOOK YOUR APPOINTMENT HERE!!</button>
       </div>
