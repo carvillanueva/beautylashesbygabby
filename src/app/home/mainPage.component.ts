@@ -148,9 +148,10 @@ import { Component, OnInit } from '@angular/core';
             </div>
 
             <!-- instagram feed -->
-            <div class="">
-                <!-- <div class="elfsight-app-36ef57ad-df3f-496e-81a8-a2ac2779e57f"></div> -->
-            </div>
+        </div>
+        <div class="col-xs-12">
+            <!-- <div class="elfsight-app-36ef57ad-df3f-496e-81a8-a2ac2779e57f"></div> -->
+            <div class="embedsocial-hashtag" data-ref="ac3c059b32d81f418b68cbe811d18ecc1fef462d"></div>
         </div>
     `
 })
