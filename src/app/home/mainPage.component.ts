@@ -137,71 +137,14 @@ import { Component, OnInit } from '@angular/core';
                 </div>
             </div>
 
-            <div class="container mx-auto my-5" style="max-width:650px;">
-                <div class="row p-4 align-items-center mx-3  rounded-3 border shadow-lg">
+            <div class="container mx-auto my-5" style="max-width:750px;">
+                <div class="row p-4 align-items-center mx-3 rounded-3 border shadow-lg">
                 <div class="col-xs-12 p-3 text-center">
                     <h1 class="display-4 fw-bold" id="contact">Contact me!!</h1>
                     <p class="lead">Feel free to contact me with any questions you may have!</p>
                 </div>
-                <!-- form - elfsight -->
-                <!-- <div class="elfsight-app-5b4c3435-a56c-41da-842c-3a10ae8e6a61"></div> -->
-                <form class="row col-xs-12 g-3" action="https://formsubmit.co/carlos2villanueva@gmail.com" method="POST">
-                    <!-- HoneyPot -->
-                    <input type="text" name="_honey" style="display:none">
-                    <!-- Disable Captcha -->
-                    <input type="hidden" name="_captcha" value="false">
-                    <div class="col-sm-6">
-                        <label for="firstName" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="John" name="name" required>
-                        <div class="invalid-feedback">
-                            Valid first name is required.
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="lastName" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="Doe" name="Last&nbsp;Name" required>
-                        <div class="invalid-feedback">
-                            Valid last name is required.
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <label for="address" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="address" placeholder="" name="_subject" required>
-                        <div class="invalid-feedback">
-                            Please enter a subject.
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" id="phone" placeholder="" name="cell" required>
-                        <div class="invalid-feedback">
-                            Please enter a phone number.
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com" name="email" required>
-                        <div class="invalid-feedback">
-                            Please enter a valid email address.
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <label class="form-label">Message</label>
-                        <textarea type="text" class="form-control" row="5" placeholder="" name="message" required></textarea>
-                        <div class="invalid-feedback">
-                            Please enter a message.
-                        </div>
-                    </div>
-
-                    <div class="mb-4 mb-lg-3">
-                        <button type="submit" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Send <i class="fa-solid fa-paper-plane"></i></button>
-                    </div>
-                    <p class="message-disclaimer text-muted fs-6">*Please allow 2 business days to respond. Thank you.</p>
-                </form>
+                <iframe allowTransparency="true" style="min-height:500px; height:1100px" width="100%"  id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="https://form.123formbuilder.com/my-contact-form-6220104.html">
+                <p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p></iframe>
             </div>
 
         </div>
