@@ -54,7 +54,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="template-demo text-center mb-2">
             <button class="btn btn-social-icon btn-facebook"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></button>
             <button class="btn btn-social-icon btn-tiktok"><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></button>
-            <button class="btn btn-social-icon btn-instagram"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></button>
+            <button class="btn btn-social-icon btn-instagram"><a href="https://www.instagram.com/beautylashesbygabby/" target="_blank"><i class="fa fa-instagram"></i></a></button>
           </div>
         </div>
 
@@ -68,23 +68,23 @@ import { Component, OnInit } from '@angular/core';
               </tr>
               <tr>
                 <td>Tuesday</td>
-                <td>9am-5pm</td>
+                <td>9am-6pm</td>
               </tr>
               <tr>
                 <td>Wednesday</td>
-                <td>9am-5pm</td>
+                <td>9am-6pm</td>
               </tr>
               <tr>
                 <td>Thursday</td>
-                <td>9am-5pm</td>
+                <td>9am-6pm</td>
               </tr>
               <tr>
                 <td>Friday</td>
-                <td>9am-5pm</td>
+                <td>9am-6pm</td>
               </tr>
               <tr>
                 <td>Saturday</td>
-                <td>9am-5pm</td>
+                <td>9am-3pm</td>
               </tr>
               <tr>
                 <td>Sunday</td>

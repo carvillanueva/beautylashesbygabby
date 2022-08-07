@@ -95,12 +95,13 @@
     }
     .hero-text h2 {
         font-size: 64px;
-        font-family: 'Allura', cursive;
+        font-family: 'DM Serif Display', serif;
+        text-transform: uppercase;
 
     }
     @media screen and (max-width: 800px) {
         .hero-text h2 {
-            font-size: 44px
+            font-size: 33px
         }
     }
     .bckground-pink {

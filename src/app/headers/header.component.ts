@@ -47,7 +47,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="text-center d-none d-lg-inline">
           <div class="socials mx-2 d-inline-block"><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook text-muted"></i></a></div>
           <div class="socials mx-2 d-inline-block"><a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok text-muted"></i></a></div>
-          <div class="socials mx-2 d-inline-block"><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram text-muted"></i></a></div>
+          <div class="socials mx-2 d-inline-block"><a href="https://www.instagram.com/beautylashesbygabby/" target="_blank"><i class="fa fa-instagram text-muted"></i></a></div>
         </div>
       </div>
     </nav>

@@ -53,7 +53,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-5 fw-semibold ">Mega Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-5" style="color:pink">$120</label>
+            <label class="fst-italic fs-5" style="color:pink">$115</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -78,7 +78,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-5 fw-semibold">Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-5" style="color:pink">$100</label>
+            <label class="fst-italic fs-5" style="color:pink">$95</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -102,7 +102,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-5 fw-semibold">Hybrid Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-5" style="color:pink">$90</label>
+            <label class="fst-italic fs-5" style="color:pink">$85</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -126,7 +126,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-5 fw-semibold">Classic Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-5" style="color:pink">$80</label>
+            <label class="fst-italic fs-5" style="color:pink">$75</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -161,7 +161,7 @@ import { Component, OnInit } from '@angular/core';
             <li class="list-group-item">SPARKLY LASHES <span class="badge rounded-pill text-muted bckground-pink mx-2">$7</span></li>
             <li class="list-group-item">COLOR LASHES <span class="badge rounded-pill text-muted bckground-pink mx-2">$7</span></li>
             <li class="list-group-item">LASH BATHS <span class="badge rounded-pill text-muted bckground-pink mx-2">$5</span></li>
-            <li class="list-group-item">LASH KITS <span class="badge rounded-pill text-muted bckground-pink mx-2">$10</span></li>
+            <li class="list-group-item">LASH KITS <span class="badge rounded-pill text-muted bckground-pink mx-2">$12</span></li>
           </ul>
         </div>
       </div>

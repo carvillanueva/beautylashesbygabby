@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'policies-page',
   styles: [`
     .hero-banner {
-      background-image: url('https://images.unsplash.com/photo-1516642898673-edd1ced08e87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+      background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -40,6 +40,7 @@ import { Component, OnInit } from '@angular/core';
           <ul class="card-text">
             <li>All appointments <strong>require</strong> a $20 non-refundable deposit to book. Please send your deposit via VENMO or CASHAPP. This deposit will go towards the remaining balance of your appointment.
               <p class="text-danger fw-bold">No deposit = No appointment</p>
+              <p class="fw-bold" style="color:hotpink">Please send your deposit ($20) via cashApp (@gabbyvill22), Venmo (@gabbyvilla22), or Zelle (@Gabriela Villanueva).</p>
             </li>
             <li>You will have 24 hours to submit your deposit. If a deposit is not sent I will cancel your appointment.</li>
             <li>Appointments are first come first serve. Im sorry, but I get a lot of requests and this is the fairest way of doing things.</li>
@@ -47,14 +48,17 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </div>
 
-      <div class="card col-md-5 d-inline-block m-2">
+      <!-- <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Deposit Information</h5>
         <div class="card-body">
           <p class="card-text">
-
+            Please send your deposit ($20) via cashApp (@gabbyvill22), Venmo (@gabbyvilla22), or Zelle (@Gabriela Villanueva).
+          </p>
+          <p class="card-text">
+            After you book your appointment, you will have 24 hours to send the deposit. If the deposit is not sent, I will cancel your appointment.
           </p>
         </div>
-      </div>
+      </div> -->
 
       <div class="card col-md-5 d-inline-block m-2">
         <h5 class="card-header">Cancellations / Rescheduling / No Show</h5>
