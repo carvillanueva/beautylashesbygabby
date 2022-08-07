@@ -61,7 +61,9 @@ import { Component, OnInit } from '@angular/core';
                 width: 100%;
                 text-align: center;
             }
-
+            .carousel-caption {
+                font-size: 12px;
+            }
         }
 
     `],
@@ -104,24 +106,49 @@ import { Component, OnInit } from '@angular/core';
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
                         </div>
                         <div class="carousel-inner text-dark" style="height:100%;">
-                            <div class="carousel-item active" style="height:100%; top:-75px;">
+                            <div class="carousel-item active" style="height:100%; top:-45px;">
                                 <div class="carousel-caption">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <p>
+                                        Gabby did a great job with my lashes. She greeted me at my car and walked me to her beautiful relaxing studio! Being a first time client with her she asked what I wanted and gave me options on lash style and extension length.
+                                        She made sure I was happy with the result and gave me helpful hints to take care of my new lashes. I left felling the baddest baddie! 🫶🏽💕
+                                        Thank you Gabby!
+                                    </p>
+                                    <h5>@daysiz</h5>
                                 </div>
                             </div>
                             <div class="carousel-item" style="height:100%; top:-75px;">
                                 <div class="carousel-caption" >
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <p>I loved my lashes! Made me feel comfortable throughout the whole service and made sure I walked out of there feeling good with them! 10/10! Thank you 💕</p>
+                                    <h5>@melisa__monroy</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="height:100%; top:-45px;">
+                                <div class="carousel-caption">
+                                    <p>My experience with @beautylashesbygabby was amazing. 💗Gabby is the only one I trust with my lashes and my results are always bomb. ❤️‍🔥 I 100% recommend you guys. She’s the sweetest ever.🙌🏼Also she makes you feel like your at home and very comfortable with her amazing vibes etc.💗#shedabest😘😊</p>
+                                    <h5>@trinityyy_w</h5>
                                 </div>
                             </div>
                             <div class="carousel-item" style="height:100%; top:-75px;">
+                                <div class="carousel-caption" >
+                                    <p>Yes !! I love Gabby, she’s so amazing and sweet💕💕💕 she provide the best customer service and you will be left satisfied! </p>
+                                    <h5>@kaitlyn_lanae</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="height:100%; top:-45px; ">
                                 <div class="carousel-caption">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                    <p>the best experience you’ll ever have ! gabby makes you feel so comfortable when you get there, she goes all out for her clients and makes sure they leave happy with their lashes. mine last for so long and always look so good definitely recommend going to her!!</p>
+                                    <h5>@hanna.barber</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="height:100%; top:-45px;">
+                                <div class="carousel-caption" >
+                                    <p>Gabby is the best in the game for REAL. She kills it every time. She makes me feel welcomed & comfortable at every appointment. She makes sure to never let me leave unsatisfied & always gives me what I ask for! I’ll never not go to her for my lashes!</p>
+                                    <h5>@azuldurann</h5>
                                 </div>
                             </div>
                         </div>
