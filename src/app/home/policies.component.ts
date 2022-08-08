@@ -18,6 +18,9 @@ import { Component, OnInit } from '@angular/core';
     ol li {
       line-height: 30px;
     }
+    .card {
+      display: inline-flex;
+    }
   `,
   ],
   template: `
@@ -34,7 +37,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="card-body fs-4 text-danger text-center">
         PLEASE READ MY POLICIES CAREFULLY.
       </div>
-      <div class="card col-md-5 d-inline-flex m-2">
+      <div class="card col-md-5 m-2">
         <h5 class="card-header">Appointment Information</h5>
         <div class="card-body">
           <ul class="card-text">
@@ -48,19 +51,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </div>
 
-      <!-- <div class="card col-md-5 d-inline-block m-2">
-        <h5 class="card-header">Deposit Information</h5>
-        <div class="card-body">
-          <p class="card-text">
-            Please send your deposit ($20) via cashApp (@gabbyvill22), Venmo (@gabbyvilla22), or Zelle (@Gabriela Villanueva).
-          </p>
-          <p class="card-text">
-            After you book your appointment, you will have 24 hours to send the deposit. If the deposit is not sent, I will cancel your appointment.
-          </p>
-        </div>
-      </div> -->
-
-      <div class="card col-md-5 d-inline-block m-2">
+      <div class="card col-md-5 m-2">
         <h5 class="card-header">Cancellations / Rescheduling / No Show</h5>
         <div class="card-body">
           <label class="fw-bold text-danger"><u>Cancelling</u></label>
@@ -90,7 +81,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </div>
 
-      <div class="card col-md-5 d-inline-block m-2">
+      <div class="card col-md-5 m-2">
         <h5 class="card-header">Other Information</h5>
         <div class="card-body">
           <ul class="card-text">
@@ -102,7 +93,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </div>
 
-      <div class="card col-md-5 d-inline-block m-2">
+      <div class="card col-md-5 m-2">
         <h5 class="card-header">Day of Appointment</h5>
         <div class="card-body">
           <ol class="card-text">
