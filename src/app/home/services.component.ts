@@ -32,6 +32,11 @@ import { Component, OnInit } from '@angular/core';
       margin-top:10px;
       margin-bottom: 10px;
     }
+    @media screen and (max-width: 800px) {
+      img {
+        max-height: 550px;
+      }
+    }
 
   `],
   template: `
