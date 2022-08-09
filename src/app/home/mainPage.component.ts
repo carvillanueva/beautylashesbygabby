@@ -129,8 +129,8 @@ import { Component, OnInit } from '@angular/core';
                             </div>
                             <div class="carousel-item" style="height:100%; top:-45px;">
                                 <div class="carousel-caption">
-                                    <p>My experience with @beautylashesbygabby was amazing. 💗Gabby is the only one I trust with my lashes and my results are always bomb. ❤️‍🔥 I 100% recommend you guys. She’s the sweetest ever.🙌🏼Also she makes you feel like your at home and very comfortable with her amazing vibes etc.💗#shedabest😘😊</p>
-                                    <h5>@trinityyy_w</h5>
+                                    <p>as a newbie when it comes to lash extensions, gabby was very informative and made me feel comfortable. she has a great personality and i felt welcomed as soon as i arrived! she makes sure that you are satisfied with the outcome and Willy make changes if necessary. her work is amazing and i feel an immediate confidence boost every time i leave! plus her lash room is such a vibe. 10/10 i would definitely recommend 💕💕💕 </p>
+                                    <h5>@jailyah_s</h5>
                                 </div>
                             </div>
                             <div class="carousel-item" style="height:100%; top:-75px;">

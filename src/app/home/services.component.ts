@@ -25,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
     }
     img {
       border-radius: 15px;
-      max-height: 300px;
+      max-height: 350px;
       border: solid 2px pink;
     }
     .my-auto {
@@ -51,9 +51,9 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col-sm-4 my-auto">
           <div class="my-auto">
-            <label class="fs-5 fw-semibold ">Mega Volume Set</label>
+            <label class="fs-4 fw-semibold ">Mega Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-5" style="color:pink">$115</label>
+            <label class="fst-italic fs-4" style="color:pink">$115</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -76,9 +76,9 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col-sm-4 my-auto">
           <div class="my-auto">
-            <label class="fs-5 fw-semibold">Volume Set</label>
+            <label class="fs-4 fw-semibold">Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-5" style="color:pink">$95</label>
+            <label class="fst-italic fs-4" style="color:pink">$95</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -96,13 +96,13 @@ import { Component, OnInit } from '@angular/core';
 
       <div class="row col-sm-12">
         <div class="col-sm-4">
-          <img src="../../assets/images/service-page/hybrid-set.jpg" width="100%;"/>
+          <img src="../../assets/images/service-page/hybrid-set.png" width="100%;"/>
         </div>
         <div class="col-sm-4 my-auto">
           <div class="my-auto">
-            <label class="fs-5 fw-semibold">Hybrid Set</label>
+            <label class="fs-4 fw-semibold">Hybrid Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-5" style="color:pink">$85</label>
+            <label class="fst-italic fs-4" style="color:pink">$85</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -124,9 +124,9 @@ import { Component, OnInit } from '@angular/core';
         </div>
         <div class="col-sm-4 my-auto">
           <div class="my-auto">
-            <label class="fs-5 fw-semibold">Classic Set</label>
+            <label class="fs-4 fw-semibold">Classic Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-5" style="color:pink">$75</label>
+            <label class="fst-italic fs-4" style="color:pink">$75</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">

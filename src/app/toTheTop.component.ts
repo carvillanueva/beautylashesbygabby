@@ -27,6 +27,7 @@ import { Component } from '@angular/core';
       right:15px;
       cursor: pointer;
       border: none;
+      z-index: 999999;
     }
     .go-to-top:hover {
       background: lightpink;
