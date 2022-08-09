@@ -29,7 +29,8 @@ import { Component, OnInit } from '@angular/core';
 
     <!-- appointment -->
     <div class="container col-xs-12 mb-5 after-banner-fix">
-      <iframe src="https://app.squarespacescheduling.com/schedule.php?owner=26839068" title="Schedule Appointment" width="100%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
+      <!-- <iframe src="https://app.squarespacescheduling.com/schedule.php?owner=26839068" title="Schedule Appointment" width="100%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script> -->
+      <!-- Start Square Appointments Embed Code --><iframe src="https://squareup.com/appointments/buyer/widget/nksqzquen6qdqj/L0ANDZF10RERJ" title="Schedule Appointment" width="100%" height="800" frameBorder="0"></iframe><script src='https://squareup.com/appointments/buyer/widget/nksqzquen6qdqj/L0ANDZF10RERJ.js'></script><!-- End Square Appointments Embed Code -->
     </div>
   `
 })
