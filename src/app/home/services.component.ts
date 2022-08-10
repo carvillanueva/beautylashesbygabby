@@ -89,7 +89,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4 my-auto">
           <div>
             <label>Description:</label>
-            <p>Volume lash set gives a supper flull and fluffy look. It offers the volume you need!</p>
+            <p>Volume lash set gives a super full and fluffy look. It offers the volume you need!</p>
           </div>
           <div>
             <label>Duration: <span>2 hours</span></label>
@@ -137,7 +137,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-4 my-auto">
           <div>
             <label>Description:</label>
-            <p>Classis sets are the most natural looking set. One lash extension is glued to one natural lash, the fullness will depend on how many natural lashes each client has!</p>
+            <p>Classic set lashes are the most natural looking set. One lash extension is glued to one natural lash, the fullness will depend on how many natural lashes each client has!</p>
           </div>
           <div>
             <label>Duration: <span>2.5 hours</span></label>
