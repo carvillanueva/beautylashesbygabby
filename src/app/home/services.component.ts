@@ -58,7 +58,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-4 fw-semibold ">Mega Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-4" style="color:pink">$115</label>
+            <label class="fst-italic fs-4" style="color:pink">$120</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -83,7 +83,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-4 fw-semibold">Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-4" style="color:pink">$95</label>
+            <label class="fst-italic fs-4" style="color:pink">$105</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -107,7 +107,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-4 fw-semibold">Hybrid Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-4" style="color:pink">$85</label>
+            <label class="fst-italic fs-4" style="color:pink">$95</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -131,7 +131,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-4 fw-semibold">Classic Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-4" style="color:pink">$75</label>
+            <label class="fst-italic fs-4" style="color:pink">$85</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
