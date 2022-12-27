@@ -41,9 +41,9 @@ import { Component, OnInit } from '@angular/core';
         <h5 class="card-header">Appointment Information</h5>
         <div class="card-body">
           <ul class="card-text">
-            <li>All appointments <strong>require</strong> a $20 non-refundable deposit to book. Please send your deposit via VENMO or CASHAPP. This deposit will go towards the remaining balance of your appointment.
+            <li>All appointments <strong>require</strong> a $25 non-refundable deposit to book. Please send your deposit via VENMO or CASHAPP. This deposit will go towards the remaining balance of your appointment.
               <p class="text-danger fw-bold">No deposit = No appointment</p>
-              <p class="fw-bold" style="color:hotpink">Please send your deposit ($20) via cashApp (@gabbyvill22), Venmo (@gabbyvilla22), or Zelle (@Gabriela Villanueva).</p>
+              <p class="fw-bold" style="color:hotpink">Please send your deposit ($25) via cashApp (@gabbyvill22), Venmo (@gabbyvilla22), or Zelle (@Gabriela Villanueva).</p>
               <p class="fw-bold" style="color:hotpink"><u>Please make the sure to make the deposit description a random emoji or phrase. Instead of 'lash deposit'. Thank you!!</u></p>
             </li>
             <li>You will have 24 hours to submit your deposit. If a deposit is not sent I will cancel your appointment.</li>
