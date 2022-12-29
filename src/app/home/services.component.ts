@@ -151,10 +151,10 @@ import { Component, OnInit } from '@angular/core';
         <div class="col-sm-6">
           <ul class="list-group">
             <li class="list-group-item bckground-pink" aria-current="true"><u>LASH FILL INS</u>  </li>
-            <li class="list-group-item">MEGA VOLUME FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$80</span></li>
-            <li class="list-group-item">VOLUME FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$70</span></li>
-            <li class="list-group-item">HYBRID FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$60</span></li>
-            <li class="list-group-item">CLASSIC FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$50</span></li>
+            <li class="list-group-item">MEGA VOLUME FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$90</span></li>
+            <li class="list-group-item">VOLUME FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$80</span></li>
+            <li class="list-group-item">HYBRID FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$70</span></li>
+            <li class="list-group-item">CLASSIC FILL IN <span class="badge rounded-pill text-muted bckground-pink mx-2">$60</span></li>
           </ul>
           <button type="button" class="btn btn-sm btn-outline-danger my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View Fill-In Requirements</button>
         </div>
@@ -162,9 +162,9 @@ import { Component, OnInit } from '@angular/core';
           <ul class="list-group">
             <li class="list-group-item bckground-pink" aria-current="true"><u>ADD ONS</u></li>
             <li class="list-group-item">LASH REMOVAL <span class="badge rounded-pill text-muted bckground-pink mx-2">$20</span></li>
-            <li class="list-group-item">ANY WISPY SETS <span class="badge rounded-pill text-muted bckground-pink mx-2">$10</span></li>
-            <li class="list-group-item">SPARKLY LASHES <span class="badge rounded-pill text-muted bckground-pink mx-2">$7</span></li>
-            <li class="list-group-item">COLOR LASHES <span class="badge rounded-pill text-muted bckground-pink mx-2">$7</span></li>
+            <li class="list-group-item">ANY WISPY SETS <span class="badge rounded-pill text-muted bckground-pink mx-2">$5</span></li>
+            <li class="list-group-item">SPARKLY LASHES <span class="badge rounded-pill text-muted bckground-pink mx-2">$5</span></li>
+            <li class="list-group-item">COLOR LASHES <span class="badge rounded-pill text-muted bckground-pink mx-2">$5</span></li>
             <li class="list-group-item">LASH BATHS <span class="badge rounded-pill text-muted bckground-pink mx-2">$5</span></li>
             <li class="list-group-item">LASH KITS <span class="badge rounded-pill text-muted bckground-pink mx-2">$12</span></li>
           </ul>
