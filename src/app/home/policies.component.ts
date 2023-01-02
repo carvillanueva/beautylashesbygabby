@@ -41,12 +41,11 @@ import { Component, OnInit } from '@angular/core';
         <h5 class="card-header">Appointment Information</h5>
         <div class="card-body">
           <ul class="card-text">
-            <li>All appointments <strong>require</strong> a $25 non-refundable deposit to book. Please send your deposit via VENMO or CASHAPP. This deposit will go towards the remaining balance of your appointment.
+            <li>All appointments <strong>require</strong> a $25 non-refundable deposit to book. Please send your deposit before booking. This deposit will go towards the remaining balance of your appointment.
               <p class="text-danger fw-bold">No deposit = No appointment</p>
-              <p class="fw-bold" style="color:hotpink">Please send your deposit ($25) via cashApp (@gabbyvill22), Venmo (@gabbyvilla22), or Zelle (@Gabriela Villanueva).</p>
-              <p class="fw-bold" style="color:hotpink"><u>Please make the sure to make the deposit description a random emoji or phrase. Instead of 'lash deposit'. Thank you!!</u></p>
+              <p class="fw-bold" style="color:hotpink">10 min late = $10 late fee.</p>
+              <p class="fw-bold" style="color:hotpink">15 min late = Canceled Appointment</p>
             </li>
-            <li>You will have 24 hours to submit your deposit. If a deposit is not sent I will cancel your appointment.</li>
             <li>Appointments are first come first serve. Im sorry, but I get a lot of requests and this is the fairest way of doing things.</li>
           </ul>
         </div>
@@ -74,11 +73,12 @@ import { Component, OnInit } from '@angular/core';
 
         <div class="card-body">
           <label class="fw-bold text-danger"><u>No Show 👎 </u></label>
-          <p class="card-text">
+          <div class="card-text">
             Please dont waste my time. There are other girls who wanted that spot too.
             I am very understanding. Please communicate with me.
-            <span class="text-danger fw-bold">No show = Blocked from booking with me </span>
-          </p>
+            <p class="text-danger fw-bold">No show = Blocked from booking with me </p>
+            <p class="text-danger fw-bold">50% Service Fee for no shows! </p>
+          </div>
         </div>
       </div>
 
@@ -87,7 +87,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="card-body">
           <ul class="card-text">
             <li>I do not allow extra guest/kids in my lash studio. I am willing to accomodate under certain circumstances. <a class="text-muted" href="#contact">Please send me a message if you need accomodations.</a></li>
-            <li>All baddies must arrive with a mask and must keep it on throughout the service. I will no longer provide extra masks.</li>
+            <li>All baddies <strong>must arrive with a mask and must keep it on throughout the service</strong>. I will no longer provide extra masks.</li>
             <li>Please know I do not work on other lash techs work!</li>
             <li>I do not rush my work! I will try my very best to give you the set you want! I will not let any baddie leave without being satisfied!🤍🤍</li>
           </ul>
