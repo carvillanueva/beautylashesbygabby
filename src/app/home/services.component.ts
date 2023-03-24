@@ -58,7 +58,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-4 fw-semibold ">Mega Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-4" style="color:pink">$130</label>
+            <label class="fst-italic fs-4" style="color:pink">$125</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -83,7 +83,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-4 fw-semibold">Volume Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-4" style="color:pink">$120</label>
+            <label class="fst-italic fs-4" style="color:pink">$115</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">
@@ -131,7 +131,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="my-auto">
             <label class="fs-4 fw-semibold">Classic Set</label>
             <div class="vertical-line my-3"></div>
-            <label class="fst-italic fs-4" style="color:pink">$100</label>
+            <label class="fst-italic fs-4" style="color:pink">$95</label>
           </div>
         </div>
         <div class="col-sm-4 my-auto">

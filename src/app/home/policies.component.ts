@@ -46,6 +46,7 @@ import { Component, OnInit } from '@angular/core';
               <p class="fw-bold" style="color:hotpink">10 min late = $10 late fee.</p>
               <p class="fw-bold" style="color:hotpink">15 min late = Canceled Appointment</p>
             </li>
+            <li>Balance after deposit <strong>MUST</strong> be paid in CASH. You may pay the remaining with card <strong>BUT</strong> will be charged a $10 service fee.</li>
             <li>Appointments are first come first serve. Im sorry, but I get a lot of requests and this is the fairest way of doing things.</li>
           </ul>
         </div>
